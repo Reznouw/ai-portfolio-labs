@@ -7,5 +7,5 @@
   "requireContextFile": true,
   "contextFileName": "CONTEXT.md",
   "commitPrefix": "publish",
-  "pushAfterCommit": false
+  "pushAfterCommit": true
 }
