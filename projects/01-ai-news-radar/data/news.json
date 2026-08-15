@@ -1,0 +1,377 @@
+{
+  "generatedAt": "2026-08-15T21:15:06.972Z",
+  "itemCount": 24,
+  "sources": {
+    "Hacker News": 8,
+    "arXiv": 8,
+    "TechCrunch": 8
+  },
+  "items": [
+    {
+      "source": "Hacker News",
+      "title": "Nvidia Jetson chip found in Russian cruise missile",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-jetson-chip-found-in-russian-cruise-missile-ukraine-claims-presence-in-s-71-monochrome-weapon-may-indicate-use-of-ai-tech",
+      "publishedAt": "2026-08-15T03:33:58Z",
+      "description": "HN story with 8 points and 0 comments.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "HN story with 8 points and 0 comments.",
+        "whyItMatters": "Importa porque la infraestructura define costos, velocidad y acceso a modelos avanzados.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "Hacker News",
+      "title": "Six Facts about the Recent Employment Effects of Artificial Intelligence",
+      "url": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/",
+      "publishedAt": "2026-08-14T18:15:30Z",
+      "description": "HN story with 11 points and 0 comments.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "HN story with 11 points and 0 comments.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "Hacker News",
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "publishedAt": "2026-08-14T14:49:43Z",
+      "description": "HN story with 3 points and 1 comments.",
+      "tags": [
+        "llm"
+      ],
+      "ai": {
+        "summary": "HN story with 3 points and 1 comments.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "Hacker News",
+      "title": "Mark Zuckerberg doesn't understand how to live",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
+      "publishedAt": "2026-08-13T18:59:31Z",
+      "description": "HN story with 3 points and 1 comments.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "HN story with 3 points and 1 comments.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "Hacker News",
+      "title": "Twitch CPO squirms, admits everyone hates its new AI training 'feature'",
+      "url": "https://www.windowscentral.com/artificial-intelligence/if-it-was-opt-in-nobody-would-opt-in-cringe-twitch-cpo-admits-everyone-hates-its-ai-training-feature-doesnt-care",
+      "publishedAt": "2026-08-13T07:35:17Z",
+      "description": "HN story with 2 points and 0 comments.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "HN story with 2 points and 0 comments.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "Hacker News",
+      "title": "Why your Amazon order confirmation emails have become so unhelpfu",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "publishedAt": "2026-08-13T02:46:32Z",
+      "description": "HN story with 10 points and 5 comments.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "HN story with 10 points and 5 comments.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "Hacker News",
+      "title": "I Asked AI to Write a Novel. It's Not So Bad",
+      "url": "https://www.motherjones.com/politics/2026/08/artificial-intelligence-ai-claude-write-novel-anthropic-copyright-manuscript/",
+      "publishedAt": "2026-08-12T20:33:12Z",
+      "description": "HN story with 4 points and 0 comments.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "HN story with 4 points and 0 comments.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "Hacker News",
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "publishedAt": "2026-08-12T16:54:25Z",
+      "description": "HN story with 341 points and 415 comments.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "HN story with 341 points and 415 comments.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "arXiv",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "url": "https://arxiv.org/abs/2608.13560v1",
+      "publishedAt": "2026-08-13T17:59:57Z",
+      "description": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empirical exploration to drive recursive self-improvement, existing paradigms remain static and fall short of this capability. In this paper, we present AutoDesign, a framework that aligns with human design priors, where a meta-harness optimizer guides a code agent to recursively improve harness based on rollout feedback. To instantiate and evaluate this framework, we focus on the academic paper-to-poster generation task and introduce PosterBench, comprising a 100-paper Main Track spanning five disciplines and PosterBench-mini, a shared 10-paper subset for controlled evaluation. On the PosterBench Main Track, AutoDesign achieves the highest score of 78.32, surpassing the closed-source commercial system Claude Design by 7.45 points. Across seven controlled code-agent-model configurations, integrating the learned DesignHarness consistently improves performance, increasing the average PosterBench Score from 54.99 to 67.39 (+12.4%). In a fully autonomous long-horizon loop, it executes 253 tool calls and 11 editing turns within 40 minutes for under $3, reaching average conference-poster quality in human evaluation. A system-blind human study further demonstrates that AutoDesign achieves the highest human preference among evaluated systems.",
+      "tags": [
+        "agents",
+        "rag",
+        "llm"
+      ],
+      "ai": {
+        "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system.",
+        "whyItMatters": "Importa porque muestra hacia donde avanzan los sistemas autonomos y herramientas de productividad con IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "arXiv",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "url": "https://arxiv.org/abs/2608.13558v1",
+      "publishedAt": "2026-08-13T17:59:52Z",
+      "description": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, omni-modal AI scientist that conducts multidisciplinary research directly from heterogeneous raw evidence. A perception layer and 3 autonomous agents for ideation, experiment, and writeup operate within a deterministic pipeline, allowing observations to shape research questions, experimental decisions, and final claims throughout the research lifecycle. By running idea, rigour, and claim checks in code, the system enforces novelty screening, statistical validity, execution provenance, and numerical traceability. We evaluate OmniScientist on 36 real-data cases spanning 5 discipline families, 4 families of scientific evidence, and modalities including images, signals, audio, video, 3-D structures, trajectories, tables, formulae, and graphs. The system completes the full path from raw data to a compiled manuscript in all 36 cases and achieves a mean overall paper score of 6.3 with the reference reasoning backbone. In paired comparisons against a blind variant that receives only precomputed scalar features, direct perception improves all 7 evaluation dimensions and wins 85% of head-to-head judgments. These results show that lifecycle-wide perception is essential for evidence-grounded scientific discovery and provides a practical path toward broadly capable AI scientists.",
+      "tags": [
+        "agents",
+        "rag",
+        "llm"
+      ],
+      "ai": {
+        "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone.",
+        "whyItMatters": "Importa porque muestra hacia donde avanzan los sistemas autonomos y herramientas de productividad con IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "arXiv",
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "url": "https://arxiv.org/abs/2608.13555v1",
+      "publishedAt": "2026-08-13T17:59:40Z",
+      "description": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs. Meanwhile, widely used test suites are small and lack the diversity needed to stress contact-rich, long-horizon behaviors. We introduce HumanTracker to make humanoid tracking evaluation both perceptually aligned and scalable. The HumanTracker benchmark contains approximately 153 hours of optical motion trajectories from multiple professional performers, organized into four motion families with text labels for fine-grained diagnosis. We further propose HumanScore, a preference-aligned metric trained on 12K motion pairs containing 24K motions. Across representative state-of-the-art trackers, HumanScore better predicts human preferences and reveals contact and stability failures that kinematic metrics often miss.",
+      "tags": [
+        "rag"
+      ],
+      "ai": {
+        "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss.",
+        "whyItMatters": "Importa porque conecta modelos con informacion externa, una pieza clave para apps utiles y verificables.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "arXiv",
+      "title": "All-optical switching of nonlinear structured light in crystal-engineered van der Waals materials",
+      "url": "https://arxiv.org/abs/2608.13548v1",
+      "publishedAt": "2026-08-13T17:58:28Z",
+      "description": "The orbital angular momentum (OAM) of light is a discrete, unbounded degree of freedom that underpins mode-multiplexed communications and high-dimensional quantum photonics. Yet, dynamic OAM control remains dependent on bulky free-space optics or cascaded architectures that separate switching from wavefront shaping, hindering nanoscale integration. Here, we engineer artificial van der Waals crystals from rhombohedrally stacked (3R) MoS$_2$, in which spatial control of the local crystal orientation imprints a nonlinear geometric phase onto the second-harmonic (SH) field, enabling background-free generation of SH vortex beams in an ultrathin (46 nm) van der Waals platform. Leveraging the C$_{3v}$ symmetry of 3R-MoS$_2$, we demonstrate monolithic, all-optical switching with sub-optical-cycle precision between Hermite-Gauss-like and Laguerre-Gaussian vortex SH beams with opposite topological charges ($l=\\pm1$). Our results establish artificial 3R-MoS$_2$ crystals as a monolithic platform for the generation and all-optical reconfiguration of nonlinear structured light at the nanoscale, advancing active nanophotonic sources for integrated classical and quantum photonic technologies.",
+      "tags": [
+        "rag"
+      ],
+      "ai": {
+        "summary": "The orbital angular momentum (OAM) of light is a discrete, unbounded degree of freedom that underpins mode-multiplexed communications and high-dimensional quantum photonics. Yet, dynamic OAM control remains dependent.",
+        "whyItMatters": "Importa porque conecta modelos con informacion externa, una pieza clave para apps utiles y verificables.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "arXiv",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "url": "https://arxiv.org/abs/2608.13547v1",
+      "publishedAt": "2026-08-13T17:57:20Z",
+      "description": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 56 one-shot tasks from 14 incident-derived families, crossing the generation contract with the execution transport around one deliberately unescaped added parser. Escaping at the interpolation point reproduces each replayed reply's raw-path outcome, so any recovery under a disclosed boundary must come from the model changing its generation. Across eight same-window configurations, replaying the same reply through the added parser lowers success by 55.4 to 73.2 percentage points; disclosure recovers 30.4 to 60.7 points for six configurations, and zero or slightly negative for the other two. Raw generation is nearly saturated at the frontier; boundary adaptation is what still separates models. GPT-5.6-sol's matched gap of -3.6 points hides -64.3 points of damage and +60.7 points of compensation. The deployment configuration reorders models: one reversal among 26 comparable pairs is unambiguous and four more sit on single-task margins. Evaluations of command-issuing agents should report the model configuration, generation contract, execution path, operating point, and final-state validator rather than treat a matched score as an intrinsic model property.",
+      "tags": [
+        "agents",
+        "llm"
+      ],
+      "ai": {
+        "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after.",
+        "whyItMatters": "Importa porque muestra hacia donde avanzan los sistemas autonomos y herramientas de productividad con IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "arXiv",
+      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "url": "https://arxiv.org/abs/2608.13545v1",
+      "publishedAt": "2026-08-13T17:56:12Z",
+      "description": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-token pretraining corpus tailored to U.S. elementary school material, explicitly excluding concepts, facts, and vocabulary taught above Grade 5. Training a 5B-parameter LLM from scratch on LITTLECURRICULUM yields LITTLELEARNER, a model with sufficient language competence for open-ended evaluation, yet with clear knowledge and capability boundaries mapped to interpretable curriculum guidelines. We release LITTLECURRICULUM and LITTLELEARNER as a developmentally restricted sandbox to study how models acquire, represent, and use data under a well-defined training scope. We illustrate the sandbox's utility in a first suite of experiments on injecting new knowledge through post-training and in-context learning. These methods let LITTLELEARNER better utilize existing knowledge, but do not raise out-of-scope capabilities. Our findings underscore the value of this controlled environment for future investigations.",
+      "tags": [
+        "llm"
+      ],
+      "ai": {
+        "summary": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "arXiv",
+      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+      "url": "https://arxiv.org/abs/2608.13522v1",
+      "publishedAt": "2026-08-13T17:41:27Z",
+      "description": "AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy AI-generated software. Existing benchmarks in this direction either focus on individual functions or only evaluate proof generation with provided implementations. It is still an open question whether agents can make coherent implementation and proof choices across real multi-module codebases. To bridge this gap, we introduce Vero, the first benchmark to evaluate joint implementation and proof synthesis at the repository level. Vero contains 43 multi-module instances sourced from real-world repositories spanning Python, Dafny, Verus, and Coq, and covering diverse domains from cryptographic protocols to distributed systems. Each instance consists of a multi-module Lean 4 repository with predetermined API interfaces, manually curated formal specifications, and reference implementations, supporting both proof-only and code-and-proof evaluation modes. To improve benchmark reliability, Vero also includes an audit mechanism where agents are allowed to formally prove unsatisfiability of provided specification or incorrectness of reference code, which surfaces and corrects latent code and specification errors during curation. We evaluate frontier coding-agent configurations with Lean toolchain access. The strongest agent fully solves only 27 of 43 instances and closes no specifications on the hardest repositories. Vero provides a concrete testbed for measuring progress toward repository-scale verified software synthesis, where current agents still fall short. We release the benchmark, curation pipeline, and evaluation harness at https://github.com/sunblaze-ucb/vero.",
+      "tags": [
+        "agents"
+      ],
+      "ai": {
+        "summary": "AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both.",
+        "whyItMatters": "Importa porque muestra hacia donde avanzan los sistemas autonomos y herramientas de productividad con IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "arXiv",
+      "title": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity",
+      "url": "https://arxiv.org/abs/2608.13520v1",
+      "publishedAt": "2026-08-13T17:40:17Z",
+      "description": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking schemes. In log-reveal-odds coordinates, this structure yields optimized single-block and multi-block schedules, and quantifies the gains from adapting computational effort to data geometry. Crucially, we show how {\\textsf{UGC}\\xspace} increments can be estimated from samples via KL increments along coupled reveal trajectories. This leads to \\emph{certified-optimal} samplers that achieve a prescribed KL error with high probability and iteration complexity within a constant factor of the corresponding oracle procedure. Collapsing the \\ugc path yields the aggregate {\\textsf{UGC}\\xspace} mass, which connects to classical multivariate dependence measures and complexity measures from previous analyses of discrete diffusion. In the fine-partition limit, the squared integral of the square-root {\\textsf{UGC}\\xspace} density determines the sharp leading-order optimal Euler discretization error. Examples exhibit substantial dimension-dependent gains over coarse schedules, including $\\widetildeΩ(\\sqrt{d})$ improvements achievable with a constant number of adaptively placed blocks.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL).",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "publishedAt": "Sat, 15 Aug 2026 18:58:39 +0000",
+      "description": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "TechCrunch",
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "publishedAt": "Sat, 15 Aug 2026 16:30:00 +0000",
+      "description": "AI coding startup Cursor is now officially a part of SpaceX.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "publishedAt": "Fri, 14 Aug 2026 16:13:40 +0000",
+      "description": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Does Mark Zuckerberg really believe AI is &#8216;for everyone&#8217;?",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "publishedAt": "Fri, 14 Aug 2026 15:43:28 +0000",
+      "description": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#160;arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s [&#8230;]",
+      "tags": [
+        "llm"
+      ],
+      "ai": {
+        "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Kog is going deeper to squeeze more inference out of GPUs",
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "publishedAt": "Fri, 14 Aug 2026 14:50:11 +0000",
+      "description": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "tags": [
+        "agents"
+      ],
+      "ai": {
+        "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+        "whyItMatters": "Importa porque muestra hacia donde avanzan los sistemas autonomos y herramientas de productividad con IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+      "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "publishedAt": "Fri, 14 Aug 2026 14:05:00 +0000",
+      "description": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+      "tags": [
+        "ai"
+      ],
+      "ai": {
+        "summary": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Meta&#8217;s &#8216;open&#8217; AI, and a $250M deal gone very wrong",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "publishedAt": "Fri, 14 Aug 2026 14:00:00 +0000",
+      "description": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#160;arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s [&#8230;]",
+      "tags": [
+        "llm"
+      ],
+      "ai": {
+        "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind.",
+        "whyItMatters": "Importa porque refleja una tendencia reciente que puede afectar productos, investigacion o adopcion de IA.",
+        "mode": "local"
+      }
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "publishedAt": "Thu, 13 Aug 2026 21:13:24 +0000",
+      "description": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "tags": [
+        "llm",
+        "open-source"
+      ],
+      "ai": {
+        "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+        "whyItMatters": "Importa porque puede reducir barreras de entrada para desarrolladores y comunidades.",
+        "mode": "local"
+      }
+    }
+  ]
+}

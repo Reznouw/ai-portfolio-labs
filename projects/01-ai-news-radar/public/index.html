@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI News Radar</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Mini Proyecto 01</p>
+          <h1 id="page-title">AI News Radar</h1>
+          <p class="lede">Un radar local para leer senales recientes de IA desde HN, arXiv y TechCrunch sin ahogarte en ruido.</p>
+        </div>
+        <aside class="status-card" aria-label="Estado de datos">
+          <span class="pulse"></span>
+          <div>
+            <strong id="item-count">0</strong>
+            <span>senales capturadas</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="toolbar" aria-label="Filtros">
+        <label>
+          Buscar
+          <input id="search" type="search" placeholder="agents, RAG, safety...">
+        </label>
+        <label>
+          Fuente
+          <select id="source-filter">
+            <option value="all">Todas</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="meta-grid" id="source-stats" aria-label="Resumen por fuente"></section>
+      <section class="news-grid" id="news-list" aria-live="polite"></section>
+    </main>
+
+    <template id="card-template">
+      <article class="news-card">
+        <div class="card-topline">
+          <span class="source"></span>
+          <span class="date"></span>
+        </div>
+        <h2></h2>
+        <p class="summary"></p>
+        <p class="why"></p>
+        <div class="tags"></div>
+        <a target="_blank" rel="noreferrer">Leer fuente</a>
+      </article>
+    </template>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

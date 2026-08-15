@@ -1,0 +1,14 @@
+{
+  "name": "01-ai-news-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node src/fetch-news.js",
+    "dev": "node src/server.js",
+    "start": "npm run fetch && npm run dev"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
