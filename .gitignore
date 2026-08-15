@@ -1,0 +1,12 @@
+# Local publication queue. Keep future projects private until publish-next moves them.
+staging/*
+!staging/.gitkeep
+
+# Local secrets
+.env
+*.local
+
+# Dependencies and generated caches
+node_modules/
+.DS_Store
+Thumbs.db

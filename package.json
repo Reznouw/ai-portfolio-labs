@@ -1,0 +1,14 @@
+{
+  "name": "ai-portfolio-labs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "publish:next": "node scripts/publish-next.js",
+    "publish:next:dry-run": "node scripts/publish-next.js --dry-run",
+    "publish:next:no-push": "node scripts/publish-next.js --no-push"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

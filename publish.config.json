@@ -1,0 +1,11 @@
+{
+  "timezone": "America/Lima",
+  "publishTime": "12:00",
+  "stagingDir": "staging",
+  "publishedDir": "projects",
+  "stateFile": "publish.state.json",
+  "requireContextFile": true,
+  "contextFileName": "CONTEXT.md",
+  "commitPrefix": "publish",
+  "pushAfterCommit": false
+}
