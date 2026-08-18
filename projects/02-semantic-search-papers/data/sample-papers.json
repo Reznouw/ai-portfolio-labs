@@ -1,0 +1,50 @@
+[
+  {
+    "id": "arxiv-like-001",
+    "title": "Graph Neural Networks for Molecular Property Prediction",
+    "authors": ["M. Rivera", "L. Chen"],
+    "year": 2024,
+    "categories": ["cs.LG", "q-bio.BM"],
+    "abstract": "We study graph neural network encoders for predicting molecular solubility and binding affinity from atom and bond structure. The paper compares message passing layers, attention pooling, and uncertainty calibration on small chemistry datasets."
+  },
+  {
+    "id": "arxiv-like-002",
+    "title": "Retrieval Augmented Generation for Scientific Literature Review",
+    "authors": ["A. Gomez", "N. Patel"],
+    "year": 2025,
+    "categories": ["cs.CL", "cs.IR"],
+    "abstract": "This work builds a retrieval augmented generation pipeline for literature review assistance. Paper metadata, abstracts, and citations are embedded, retrieved with semantic search, and summarized with source-grounded responses."
+  },
+  {
+    "id": "arxiv-like-003",
+    "title": "Privacy Preserving Federated Learning with Client Drift",
+    "authors": ["S. Novak", "J. Kim"],
+    "year": 2023,
+    "categories": ["cs.LG", "cs.CR"],
+    "abstract": "We propose a federated learning optimizer that handles client drift while preserving privacy. The method combines secure aggregation, differential privacy noise, and adaptive local training schedules."
+  },
+  {
+    "id": "arxiv-like-004",
+    "title": "Efficient Transformers for Long Document Classification",
+    "authors": ["P. Singh", "R. Alvarez"],
+    "year": 2024,
+    "categories": ["cs.CL"],
+    "abstract": "Long document classification remains expensive for transformer models. We introduce sparse attention windows and hierarchical pooling to classify legal, biomedical, and academic documents with lower memory cost."
+  },
+  {
+    "id": "arxiv-like-005",
+    "title": "Semantic Search Benchmarks for Academic Discovery",
+    "authors": ["T. Brooks", "E. Martin"],
+    "year": 2025,
+    "categories": ["cs.IR", "cs.DL"],
+    "abstract": "The paper evaluates lexical, dense, and hybrid retrieval for academic paper discovery. Queries include method names, research problems, datasets, and vague natural language descriptions of scientific intent."
+  },
+  {
+    "id": "arxiv-like-006",
+    "title": "Computer Vision Models for Satellite Crop Monitoring",
+    "authors": ["C. Rossi", "D. Walker"],
+    "year": 2022,
+    "categories": ["cs.CV", "eess.IV"],
+    "abstract": "We train convolutional and vision transformer models to monitor crop health from satellite imagery. The system detects drought stress, vegetation changes, and field-level anomalies across growing seasons."
+  }
+]

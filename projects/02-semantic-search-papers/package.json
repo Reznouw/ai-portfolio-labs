@@ -1,0 +1,14 @@
+{
+  "name": "02-semantic-search-papers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ingest": "node src/ingest.js",
+    "search": "node src/search.js",
+    "verify": "npm run ingest && npm run search -- \"graph neural networks for molecules\""
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
