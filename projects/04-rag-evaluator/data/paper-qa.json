@@ -1,0 +1,38 @@
+[
+  {
+    "id": "qa-001",
+    "paper": "Attention Is All You Need",
+    "question": "What is the main architectural change introduced by the Transformer?",
+    "context": "The Transformer is a model architecture relying entirely on attention mechanisms, dispensing with recurrence and convolutions. It uses stacked self-attention and point-wise fully connected layers for both the encoder and decoder.",
+    "expected_answer": "The Transformer replaces recurrent and convolutional layers with stacked self-attention mechanisms in the encoder and decoder.",
+    "generated_answer": "The Transformer removes recurrence and convolutions and relies on stacked self-attention in its encoder and decoder.",
+    "required_keywords": ["self-attention", "recurrence", "convolutions", "encoder", "decoder"]
+  },
+  {
+    "id": "qa-002",
+    "paper": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "question": "Why does RAG combine a parametric model with retrieved documents?",
+    "context": "Retrieval-Augmented Generation combines pre-trained parametric and non-parametric memory. The parametric memory is a seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a neural retriever.",
+    "expected_answer": "RAG combines a seq2seq parametric model with a dense retrieved document index so generation can use both learned knowledge and external non-parametric memory.",
+    "generated_answer": "RAG pairs a pretrained seq2seq model with a dense Wikipedia index so answers can draw on learned parameters and retrieved non-parametric memory.",
+    "required_keywords": ["seq2seq", "dense", "index", "retrieved", "non-parametric"]
+  },
+  {
+    "id": "qa-003",
+    "paper": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "question": "What makes BERT bidirectional during pre-training?",
+    "context": "BERT is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers. It uses masked language modeling to enable bidirectional pre-training.",
+    "expected_answer": "BERT uses masked language modeling so each layer can condition on both left and right context during pre-training.",
+    "generated_answer": "BERT is bidirectional because masked language modeling lets it use both left and right context in all layers while pre-training.",
+    "required_keywords": ["masked language modeling", "left", "right", "context", "pre-training"]
+  },
+  {
+    "id": "qa-004",
+    "paper": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "question": "What is the efficiency idea behind LoRA?",
+    "context": "LoRA freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks.",
+    "expected_answer": "LoRA freezes pretrained weights and trains small low-rank decomposition matrices, reducing the number of trainable parameters.",
+    "generated_answer": "LoRA keeps the pretrained weights frozen and adds trainable low-rank matrices, which cuts the trainable parameter count for downstream tasks.",
+    "required_keywords": ["frozen", "trainable", "low-rank", "matrices", "parameters"]
+  }
+]

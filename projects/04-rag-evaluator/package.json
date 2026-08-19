@@ -1,0 +1,13 @@
+{
+  "name": "rag-evaluator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eval": "node src/evaluate.js",
+    "start": "npm run eval"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
