@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rag-2020",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "year": 2020,
+    "authors": ["Lewis", "Perez", "Piktus"],
+    "topics": ["rag", "retrieval", "generation"],
+    "abstract": "# Retrieval-Augmented Generation\n\nThis paper studies a model that combines a parametric sequence generator with a non-parametric retriever over external documents. The retriever supplies passages that condition the generator, improving factual recall on knowledge-intensive question answering tasks. The central lesson is that retrieval can ground generated answers in sources that are easier to inspect than model weights."
+  },
+  {
+    "id": "dense-passage-2020",
+    "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+    "year": 2020,
+    "authors": ["Karpukhin", "Oguz", "Min"],
+    "topics": ["retrieval", "embeddings", "question answering"],
+    "abstract": "# Dense Passage Retrieval\n\nDense Passage Retrieval replaces sparse keyword matching with learned vector representations for questions and passages. A dual encoder maps both sides into the same space, making nearest-neighbor search useful for open-domain question answering. The paper shows that high-quality retrieval is often the bottleneck for downstream answer quality."
+  },
+  {
+    "id": "react-2022",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2022,
+    "authors": ["Yao", "Zhao", "Yu"],
+    "topics": ["agents", "reasoning", "tools"],
+    "abstract": "# ReAct\n\nReAct prompts language models to interleave reasoning traces with actions such as search or tool calls. This pattern lets a model decide what evidence to gather before answering and makes intermediate steps easier to audit. It is relevant to RAG because retrieval becomes one explicit action in a broader reasoning loop."
+  },
+  {
+    "id": "self-rag-2023",
+    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+    "year": 2023,
+    "authors": ["Asai", "Wu", "Wang"],
+    "topics": ["rag", "critique", "evaluation"],
+    "abstract": "# Self-RAG\n\nSelf-RAG trains a model to decide when retrieval is needed and to critique whether generated claims are supported by retrieved passages. Instead of always retrieving, the system uses reflection tokens to control retrieval and assess evidence. The paper highlights that RAG quality depends on both finding context and using it responsibly."
+  },
+  {
+    "id": "ragas-2023",
+    "title": "RAGAS: Automated Evaluation of Retrieval Augmented Generation",
+    "year": 2023,
+    "authors": ["Es", "James", "Espinosa-Anke"],
+    "topics": ["rag", "evaluation", "faithfulness"],
+    "abstract": "# RAGAS\n\nRAGAS proposes metrics for evaluating RAG pipelines without requiring a large set of human-written reference answers. It measures dimensions such as context relevance, answer faithfulness, and answer relevance. The practical takeaway is that RAG demos should be tested for whether the answer is grounded in retrieved context, not only whether it sounds fluent."
+  }
+]

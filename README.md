@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [03-mini-rag-papers](projects/03-mini-rag-papers)
+
 - [02-semantic-search-papers](projects/02-semantic-search-papers)
 
 - [01-ai-news-radar](projects/01-ai-news-radar)
