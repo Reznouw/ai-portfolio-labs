@@ -3,7 +3,8 @@
     "01-ai-news-radar",
     "02-semantic-search-papers",
     "03-mini-rag-papers",
-    "04-rag-evaluator"
+    "04-rag-evaluator",
+    "05-prompt-injection-lab"
   ],
-  "lastPublishedAt": "2026-08-19T17:00:06.370Z"
+  "lastPublishedAt": "2026-08-20T17:00:06.401Z"
 }

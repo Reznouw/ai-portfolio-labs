@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prompt Injection Lab</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">AI safety toy lab</p>
+        <h1>Prompt Injection Lab</h1>
+        <p class="lede">Try safe sample attacks against a deterministic simulator and compare unsafe behavior with defended behavior.</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Run a prompt</h2>
+            <p>No model calls. No real secrets. The lab uses rule-based scoring.</p>
+          </div>
+          <select id="sampleSelect" aria-label="Sample attack"></select>
+        </div>
+        <textarea id="promptInput" rows="6" spellcheck="false"></textarea>
+        <div class="actions">
+          <button id="runButton">Simulate</button>
+          <span id="status" role="status"></span>
+        </div>
+      </section>
+
+      <section id="result" class="result" hidden></section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

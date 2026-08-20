@@ -1,0 +1,14 @@
+{
+  "name": "05-prompt-injection-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node src/cli.js",
+    "dev": "node src/server.js",
+    "test": "node src/cli.js --check"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
