@@ -1,0 +1,34 @@
+[
+  {
+    "claim": "The Eiffel Tower is in Paris.",
+    "expected": "supported"
+  },
+  {
+    "claim": "The Eiffel Tower is in Berlin.",
+    "expected": "refuted"
+  },
+  {
+    "claim": "Python was created by Guido van Rossum.",
+    "expected": "supported"
+  },
+  {
+    "claim": "Mars has two moons.",
+    "expected": "supported"
+  },
+  {
+    "claim": "The Great Wall of China is visible from the Moon.",
+    "expected": "refuted"
+  },
+  {
+    "claim": "Marie Curie won Nobel Prizes in physics and chemistry.",
+    "expected": "supported"
+  },
+  {
+    "claim": "The Amazon River is the longest river in the world.",
+    "expected": "refuted"
+  },
+  {
+    "claim": "Ada Lovelace invented the JavaScript programming language.",
+    "expected": "uncertain"
+  }
+]

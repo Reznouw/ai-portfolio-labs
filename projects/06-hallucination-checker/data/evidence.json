@@ -1,0 +1,121 @@
+[
+  {
+    "id": "eiffel-tower",
+    "title": "Eiffel Tower",
+    "topics": ["eiffel tower", "eiffel"],
+    "rules": [
+      {
+        "verdict": "supported",
+        "requires": ["eiffel tower", "paris"],
+        "snippet": "The Eiffel Tower is a wrought-iron tower on the Champ de Mars in Paris, France."
+      },
+      {
+        "verdict": "refuted",
+        "requires": ["eiffel tower", "berlin"],
+        "snippet": "The Eiffel Tower is in Paris, France, not Berlin."
+      }
+    ]
+  },
+  {
+    "id": "python-creator",
+    "title": "Python programming language",
+    "topics": ["python", "python programming language"],
+    "rules": [
+      {
+        "verdict": "supported",
+        "requires": ["python", "guido van rossum"],
+        "snippet": "Python was created by Guido van Rossum and first released in 1991."
+      },
+      {
+        "verdict": "refuted",
+        "requires": ["python", "linus torvalds"],
+        "snippet": "Python was created by Guido van Rossum; Linus Torvalds created the Linux kernel."
+      }
+    ]
+  },
+  {
+    "id": "mars-moons",
+    "title": "Moons of Mars",
+    "topics": ["mars", "moons of mars"],
+    "rules": [
+      {
+        "verdict": "supported",
+        "requires": ["mars", "two moons"],
+        "snippet": "Mars has two small natural satellites, Phobos and Deimos."
+      },
+      {
+        "verdict": "refuted",
+        "requires": ["mars", "one moon"],
+        "snippet": "Mars has two moons, Phobos and Deimos, not one."
+      }
+    ]
+  },
+  {
+    "id": "great-wall-moon",
+    "title": "Great Wall visibility myth",
+    "topics": ["great wall", "great wall of china", "moon"],
+    "rules": [
+      {
+        "verdict": "refuted",
+        "requires": ["great wall", "visible from the moon"],
+        "snippet": "The claim that the Great Wall of China is visible from the Moon with the naked eye is a common myth and is false."
+      },
+      {
+        "verdict": "refuted",
+        "requires": ["great wall of china", "moon"],
+        "snippet": "Astronaut accounts and optical limits refute the idea that the Great Wall is visible from the Moon unaided."
+      }
+    ]
+  },
+  {
+    "id": "marie-curie-nobel",
+    "title": "Marie Curie Nobel Prizes",
+    "topics": ["marie curie", "curie"],
+    "rules": [
+      {
+        "verdict": "supported",
+        "requires": ["marie curie", "physics", "chemistry"],
+        "snippet": "Marie Curie won the Nobel Prize in Physics in 1903 and the Nobel Prize in Chemistry in 1911."
+      },
+      {
+        "verdict": "refuted",
+        "requires": ["marie curie", "literature"],
+        "snippet": "Marie Curie's Nobel Prizes were in Physics and Chemistry, not Literature."
+      }
+    ]
+  },
+  {
+    "id": "amazon-river-length",
+    "title": "Amazon River",
+    "topics": ["amazon river", "amazon"],
+    "rules": [
+      {
+        "verdict": "refuted",
+        "requires": ["amazon river", "longest river"],
+        "snippet": "The Amazon River is usually described as the largest river by discharge; the Nile is commonly cited as the longest river."
+      },
+      {
+        "verdict": "supported",
+        "requires": ["amazon river", "largest", "discharge"],
+        "snippet": "The Amazon River is the largest river by discharge volume of water in the world."
+      }
+    ]
+  },
+  {
+    "id": "mount-everest",
+    "title": "Mount Everest",
+    "topics": ["mount everest", "everest"],
+    "rules": [
+      {
+        "verdict": "supported",
+        "requires": ["mount everest", "highest", "sea level"],
+        "snippet": "Mount Everest is Earth's highest mountain above sea level."
+      },
+      {
+        "verdict": "supported",
+        "requires": ["mount everest", "tallest", "sea level"],
+        "snippet": "Measured by elevation above sea level, Mount Everest is the tallest mountain."
+      }
+    ]
+  }
+]

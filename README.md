@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [06-hallucination-checker](projects/06-hallucination-checker)
+
 - [05-prompt-injection-lab](projects/05-prompt-injection-lab)
 
 - [04-rag-evaluator](projects/04-rag-evaluator)

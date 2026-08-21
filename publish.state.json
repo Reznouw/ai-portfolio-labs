@@ -4,7 +4,8 @@
     "02-semantic-search-papers",
     "03-mini-rag-papers",
     "04-rag-evaluator",
-    "05-prompt-injection-lab"
+    "05-prompt-injection-lab",
+    "06-hallucination-checker"
   ],
-  "lastPublishedAt": "2026-08-20T17:00:06.401Z"
+  "lastPublishedAt": "2026-08-21T17:00:06.912Z"
 }
