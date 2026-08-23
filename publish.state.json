@@ -5,7 +5,8 @@
     "03-mini-rag-papers",
     "04-rag-evaluator",
     "05-prompt-injection-lab",
-    "06-hallucination-checker"
+    "06-hallucination-checker",
+    "07-llm-judge-arena"
   ],
-  "lastPublishedAt": "2026-08-21T17:00:06.912Z"
+  "lastPublishedAt": "2026-08-23T23:33:18.646Z"
 }

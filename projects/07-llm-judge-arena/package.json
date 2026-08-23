@@ -1,0 +1,14 @@
+{
+  "name": "07-llm-judge-arena",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "judge": "node src/judge.js",
+    "verify": "node src/judge.js --check",
+    "start": "npm run judge"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

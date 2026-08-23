@@ -1,0 +1,74 @@
+[
+  {
+    "id": "prompt-001",
+    "title": "Photosynthesis explanation",
+    "prompt": "Explain photosynthesis to a middle school student in 4 sentences or fewer.",
+    "context": "Photosynthesis is the process plants use to make sugar from carbon dioxide and water. Chlorophyll captures light energy from the sun. Oxygen is released as a byproduct. The sugar stores energy that the plant can use for growth.",
+    "rubric": {
+      "required_facts": ["carbon dioxide", "water", "light", "sugar", "oxygen"],
+      "forbidden_claims": ["plants eat soil", "oxygen is required as the main input", "photosynthesis happens only at night"],
+      "helpfulness_terms": ["student", "simple", "energy", "growth"],
+      "max_sentences": 4
+    },
+    "candidates": [
+      {
+        "id": "answer-a",
+        "model": "candidate-clear",
+        "answer": "Photosynthesis is how plants make their own food. They use sunlight, carbon dioxide from the air, and water from the soil to make sugar. The sugar stores energy for growth, and oxygen is released into the air. In simple terms, sunlight helps plants turn air and water into food."
+      },
+      {
+        "id": "answer-b",
+        "model": "candidate-vague",
+        "answer": "Photosynthesis is when plants eat soil and breathe oxygen to stay alive. It mostly happens at night when plants rest. The process gives plants vitamins."
+      }
+    ]
+  },
+  {
+    "id": "prompt-002",
+    "title": "Refund policy answer",
+    "prompt": "A customer asks if they can get a refund 20 days after buying a course. Answer using only the policy context.",
+    "context": "Course purchases are refundable for 14 calendar days after purchase if the student has completed less than 25 percent of the course. After 14 days, refunds are not available. Students can request account credit within 30 days at support@example.test.",
+    "rubric": {
+      "required_facts": ["14 calendar days", "less than 25 percent", "after 14 days", "not available", "account credit", "30 days"],
+      "forbidden_claims": ["full refund after 20 days", "refund anytime", "call the bank", "support@example.com"],
+      "helpfulness_terms": ["policy", "credit", "support@example.test", "20 days"],
+      "max_sentences": 5
+    },
+    "candidates": [
+      {
+        "id": "answer-a",
+        "model": "candidate-policy-grounded",
+        "answer": "Based on the policy, a refund is not available 20 days after purchase because refunds only apply for 14 calendar days and only if less than 25 percent of the course was completed. The customer may still request account credit within 30 days by contacting support@example.test."
+      },
+      {
+        "id": "answer-b",
+        "model": "candidate-overpromises",
+        "answer": "Yes, they can get a full refund after 20 days as long as they are unhappy. They should call the bank or email support@example.com to reverse the charge."
+      }
+    ]
+  },
+  {
+    "id": "prompt-003",
+    "title": "RAG definition",
+    "prompt": "Define retrieval augmented generation and mention one limitation.",
+    "context": "Retrieval augmented generation, or RAG, combines a retriever with a generator. The retriever finds relevant external documents or passages. The generator uses that retrieved context to produce an answer. RAG can still fail when retrieval misses important evidence or returns low quality context.",
+    "rubric": {
+      "required_facts": ["retriever", "generator", "external documents", "context", "retrieval misses important evidence"],
+      "forbidden_claims": ["stores all facts in model weights", "guarantees factual answers", "does not need documents"],
+      "helpfulness_terms": ["limitation", "evidence", "quality", "answer"],
+      "max_sentences": 4
+    },
+    "candidates": [
+      {
+        "id": "answer-a",
+        "model": "candidate-balanced",
+        "answer": "Retrieval augmented generation combines a retriever and a generator: the retriever finds relevant external documents, and the generator uses that context to answer. One limitation is that the answer can be weak or wrong if retrieval misses important evidence or returns low quality context."
+      },
+      {
+        "id": "answer-b",
+        "model": "candidate-hallucinates",
+        "answer": "RAG is a model that stores all facts in model weights so it does not need documents. It guarantees factual answers because the generator already knows the right content."
+      }
+    ]
+  }
+]
