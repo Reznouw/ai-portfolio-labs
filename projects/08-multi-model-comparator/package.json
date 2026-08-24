@@ -1,0 +1,16 @@
+{
+  "name": "08-multi-model-comparator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "model-compare": "src/cli.js"
+  },
+  "scripts": {
+    "compare": "node src/cli.js --task config/example-task.json --providers mock-fast,mock-careful,mock-creative --out reports/example-report.md",
+    "verify": "node src/cli.js --task config/example-task.json --providers mock-fast,mock-careful,mock-creative --out reports/verify-report.md"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

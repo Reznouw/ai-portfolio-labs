@@ -1,0 +1,11 @@
+{
+  "title": "Local-first AI launch checklist",
+  "prompt": "Create a concise checklist for launching a local-first AI tool for non-technical users. Focus on practical release readiness, user trust, and operational risk.",
+  "criteria": [
+    "practical",
+    "risk-aware",
+    "plain English",
+    "under 180 words"
+  ],
+  "maxOutputWords": 180
+}
