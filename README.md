@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [09-dataset-cleaner-agent](projects/09-dataset-cleaner-agent)
+
 - [08-multi-model-comparator](projects/08-multi-model-comparator)
 
 - [07-llm-judge-arena](projects/07-llm-judge-arena)

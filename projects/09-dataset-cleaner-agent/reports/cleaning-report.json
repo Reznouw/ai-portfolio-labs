@@ -1,0 +1,33 @@
+{
+  "generatedBy": "dataset-cleaner-agent",
+  "input": "data/raw/customers.csv",
+  "outputs": [
+    "data/clean/customers_clean.csv",
+    "reports/cleaning-report.md",
+    "reports/cleaning-report.json"
+  ],
+  "plan": [
+    "Trim whitespace in every cell.",
+    "Remove duplicate customers by normalized email, keeping the first occurrence.",
+    "Fill missing or invalid age values with the median valid age.",
+    "Normalize category drift in plan, status, signup source, and city fields.",
+    "Replace missing or malformed email addresses with invalid.local placeholders.",
+    "Clamp negative spend to zero and cap high spend outliers with the IQR upper fence."
+  ],
+  "stats": {
+    "rawRows": 10,
+    "cleanRows": 9,
+    "duplicateRowsRemoved": 1,
+    "missingAgesFilled": 1,
+    "underageAgesFilled": 1,
+    "missingEmailsMarked": 1,
+    "malformedEmailsMarked": 1,
+    "missingSourcesFilled": 1,
+    "unknownPlans": 1,
+    "unknownStatuses": 1,
+    "negativeSpendClamped": 1,
+    "outliersCapped": 2,
+    "medianAge": 36,
+    "outlierCap": 7235
+  }
+}

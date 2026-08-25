@@ -1,0 +1,11 @@
+customer_id,name,email,age,city,plan,status,signup_source,annual_spend
+1,Ana Ruiz,ana@example.com,29,lima,starter,active,web,420
+2,Carlos Vega,carlos@example.com,,LIMA,Pro,actve,referral,980
+3,Maria Sol,maria@example.com,41,cusco,professional,ACTIVE,ads,1250
+4,Jorge Paz,jorge@example.com,17,Arequipa,enterprise,inactive,,3200
+5,Carlos Vega,carlos@example.com,,lima,pro,active,Referral,980
+6,Lucia Mora,lucia_at_example.com,36,trujillo,basic,churned,web,-50
+7,Diego Ramos,diego@example.com,52,CUSCO,ent,Inactive,partner,7600
+8,Elena Torres,elena@example.com,45,lima,Free,active,organic,140
+9,Pablo Nunez,pablo@example.com,33,arequipa,unknown,paused,web,99999
+10,Sofia Ibarra,,28,tacna,starter,active,ads,510

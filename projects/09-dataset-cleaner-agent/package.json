@@ -1,0 +1,14 @@
+{
+  "name": "dataset-cleaner-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic agentic cleaner for a small tabular customer dataset.",
+  "scripts": {
+    "clean": "node src/clean.js",
+    "verify": "node src/clean.js && node src/verify.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
