@@ -1,0 +1,154 @@
+{
+  "dataset": {
+    "path": "data/tiny-flowers.csv",
+    "rows": 18,
+    "trainRows": 12,
+    "testRows": 6,
+    "features": [
+      "sepal_length",
+      "sepal_width",
+      "petal_length",
+      "petal_width"
+    ],
+    "target": "label"
+  },
+  "models": [
+    {
+      "name": "Majority Class",
+      "accuracy": 0.3333333333333333,
+      "macroF1": 0.16666666666666666,
+      "perClass": [
+        {
+          "label": "setosa",
+          "precision": 0.3333333333333333,
+          "recall": 1,
+          "f1": 0.5,
+          "support": 2
+        },
+        {
+          "label": "versicolor",
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 2
+        },
+        {
+          "label": "virginica",
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 2
+        }
+      ],
+      "predictions": [
+        {
+          "id": "5",
+          "actual": "setosa",
+          "predicted": "setosa",
+          "correct": true
+        },
+        {
+          "id": "6",
+          "actual": "setosa",
+          "predicted": "setosa",
+          "correct": true
+        },
+        {
+          "id": "11",
+          "actual": "versicolor",
+          "predicted": "setosa",
+          "correct": false
+        },
+        {
+          "id": "12",
+          "actual": "versicolor",
+          "predicted": "setosa",
+          "correct": false
+        },
+        {
+          "id": "17",
+          "actual": "virginica",
+          "predicted": "setosa",
+          "correct": false
+        },
+        {
+          "id": "18",
+          "actual": "virginica",
+          "predicted": "setosa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "name": "Nearest Centroid",
+      "accuracy": 1,
+      "macroF1": 1,
+      "perClass": [
+        {
+          "label": "setosa",
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 2
+        },
+        {
+          "label": "versicolor",
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 2
+        },
+        {
+          "label": "virginica",
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 2
+        }
+      ],
+      "predictions": [
+        {
+          "id": "5",
+          "actual": "setosa",
+          "predicted": "setosa",
+          "correct": true
+        },
+        {
+          "id": "6",
+          "actual": "setosa",
+          "predicted": "setosa",
+          "correct": true
+        },
+        {
+          "id": "11",
+          "actual": "versicolor",
+          "predicted": "versicolor",
+          "correct": true
+        },
+        {
+          "id": "12",
+          "actual": "versicolor",
+          "predicted": "versicolor",
+          "correct": true
+        },
+        {
+          "id": "17",
+          "actual": "virginica",
+          "predicted": "virginica",
+          "correct": true
+        },
+        {
+          "id": "18",
+          "actual": "virginica",
+          "predicted": "virginica",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "recommendation": {
+    "name": "Nearest Centroid",
+    "accuracy": 1,
+    "macroF1": 1
+  }
+}

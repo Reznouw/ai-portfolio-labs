@@ -1,0 +1,13 @@
+{
+  "name": "automl-baseline-builder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eval": "node src/automl.js",
+    "start": "npm run eval"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
