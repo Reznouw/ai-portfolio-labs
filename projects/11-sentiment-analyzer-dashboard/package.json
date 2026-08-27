@@ -1,0 +1,13 @@
+{
+  "name": "sentiment-analyzer-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "verify": "node src/verify.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -9,7 +9,8 @@
     "07-llm-judge-arena",
     "08-multi-model-comparator",
     "09-dataset-cleaner-agent",
-    "10-automl-baseline-builder"
+    "10-automl-baseline-builder",
+    "11-sentiment-analyzer-dashboard"
   ],
-  "lastPublishedAt": "2026-08-26T17:00:10.230Z"
+  "lastPublishedAt": "2026-08-27T19:54:51.992Z"
 }

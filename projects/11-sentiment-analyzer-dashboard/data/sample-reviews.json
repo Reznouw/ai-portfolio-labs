@@ -1,0 +1,86 @@
+[
+  {
+    "id": "review-001",
+    "source": "review",
+    "author": "Maya",
+    "topic": "Delivery app",
+    "text": "The new checkout flow is fast, clear, and surprisingly helpful. I loved how smooth the refund status felt."
+  },
+  {
+    "id": "review-002",
+    "source": "review",
+    "author": "Noah",
+    "topic": "Smart speaker",
+    "text": "Setup was slow and the voice recognition failed twice. The design is nice, but support was poor."
+  },
+  {
+    "id": "review-003",
+    "source": "tweet",
+    "author": "@ana_reads",
+    "topic": "Book launch",
+    "text": "This launch thread is brilliant: concise, warm, and packed with useful examples."
+  },
+  {
+    "id": "review-004",
+    "source": "tweet",
+    "author": "@route_watch",
+    "topic": "Transit update",
+    "text": "Not bad today. The train was late, but the alerts were accurate and the crew was friendly."
+  },
+  {
+    "id": "review-005",
+    "source": "review",
+    "author": "Priya",
+    "topic": "Meal kit",
+    "text": "Fresh ingredients, excellent sauces, and easy instructions. The packaging waste is still frustrating."
+  },
+  {
+    "id": "review-006",
+    "source": "tweet",
+    "author": "@bug_hunter",
+    "topic": "Mobile app",
+    "text": "The latest update is terrible. Crashes are frequent, search is broken, and the loading screen feels endless."
+  },
+  {
+    "id": "review-007",
+    "source": "review",
+    "author": "Leo",
+    "topic": "Headphones",
+    "text": "Battery life is good and calls sound clean. Noise canceling is average, not amazing."
+  },
+  {
+    "id": "review-008",
+    "source": "tweet",
+    "author": "@city_foodie",
+    "topic": "Cafe",
+    "text": "Lovely staff, cozy seats, and great coffee. The line was long but absolutely worth it."
+  },
+  {
+    "id": "review-009",
+    "source": "review",
+    "author": "Sam",
+    "topic": "Budget laptop",
+    "text": "The keyboard is fine and the screen is okay. Performance is acceptable for notes and browsing."
+  },
+  {
+    "id": "review-010",
+    "source": "tweet",
+    "author": "@support_loop",
+    "topic": "Help desk",
+    "text": "Never helpful. Three transfers, confusing answers, and a rude closing message."
+  },
+  {
+    "id": "review-011",
+    "source": "review",
+    "author": "Elena",
+    "topic": "Fitness class",
+    "text": "Energetic coach, clean studio, and motivating music. I left happy and confident."
+  },
+  {
+    "id": "review-012",
+    "source": "tweet",
+    "author": "@ops_notes",
+    "topic": "Dashboard beta",
+    "text": "Charts loaded quickly, but the labels were confusing and the export button failed."
+  }
+]

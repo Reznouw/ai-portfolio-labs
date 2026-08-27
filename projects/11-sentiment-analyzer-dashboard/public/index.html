@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sentiment Analyzer Dashboard</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Offline NLP lab</p>
+          <h1 id="page-title">Sentiment Analyzer Dashboard</h1>
+          <p class="lede">A deterministic lexicon engine scores sample reviews and tweets, then turns the evidence into live local dashboard metrics.</p>
+        </div>
+        <div class="hero-card" aria-label="Analyzer status">
+          <span class="status-dot" aria-hidden="true"></span>
+          <strong>No API calls</strong>
+          <span>Local Node server and static frontend</span>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Summary metrics">
+        <article class="metric-card">
+          <span>Total samples</span>
+          <strong id="totalSamples">--</strong>
+          <small>Reviews and tweets</small>
+        </article>
+        <article class="metric-card positive">
+          <span>Positive ratio</span>
+          <strong id="positiveRatio">--</strong>
+          <small>Share classified positive</small>
+        </article>
+        <article class="metric-card">
+          <span>Average score</span>
+          <strong id="averageScore">--</strong>
+          <small>Normalized lexicon score</small>
+        </article>
+        <article class="metric-card negative">
+          <span>Negative ratio</span>
+          <strong id="negativeRatio">--</strong>
+          <small>Risk and complaint signal</small>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel" aria-labelledby="distribution-title">
+          <div class="section-heading">
+            <p class="eyebrow">Distribution</p>
+            <h2 id="distribution-title">Class balance</h2>
+          </div>
+          <div id="bars" class="bars" aria-live="polite"></div>
+          <div class="legend" aria-label="Sentiment legend">
+            <span><i class="swatch positive-bg"></i>Positive</span>
+            <span><i class="swatch neutral-bg"></i>Neutral</span>
+            <span><i class="swatch negative-bg"></i>Negative</span>
+          </div>
+        </aside>
+
+        <section class="panel" aria-labelledby="controls-title">
+          <div class="section-heading inline-heading">
+            <div>
+              <p class="eyebrow">Explore</p>
+              <h2 id="controls-title">Analyzed samples</h2>
+            </div>
+            <label class="search-label">
+              <span>Search text</span>
+              <input id="searchInput" type="search" placeholder="Try support, coffee, app" aria-label="Search analyzed samples">
+            </label>
+          </div>
+
+          <div class="filters" aria-label="Sentiment filters">
+            <button class="filter active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="positive">Positive</button>
+            <button class="filter" type="button" data-filter="neutral">Neutral</button>
+            <button class="filter" type="button" data-filter="negative">Negative</button>
+          </div>
+
+          <div id="itemGrid" class="item-grid" aria-live="polite"></div>
+        </section>
+      </section>
+
+      <section class="panel polarized" aria-labelledby="polarized-title">
+        <div class="section-heading">
+          <p class="eyebrow">Evidence</p>
+          <h2 id="polarized-title">Most polarized samples</h2>
+        </div>
+        <div id="polarizedList" class="polarized-list"></div>
+      </section>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
