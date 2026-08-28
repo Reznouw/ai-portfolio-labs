@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Topic Modeling Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Project navigation">
+        <a class="brand" href="#top" aria-label="Topic Modeling Explorer home">
+          <span class="brand-mark">TM</span>
+          <span>Topic Modeling Explorer</span>
+        </a>
+        <a href="#method">Method</a>
+      </nav>
+      <div class="hero-grid" id="top">
+        <section>
+          <p class="eyebrow">Offline NLP Lab</p>
+          <h1>Explore concept clusters from sample news and forum text.</h1>
+          <p class="lede">A dependency-free TF-IDF pipeline groups BBC and 20-newsgroups-like documents into readable topics, then exposes the terms and evidence behind each cluster.</p>
+          <div class="controls" role="search">
+            <label for="searchInput">Search documents or terms</label>
+            <input id="searchInput" type="search" placeholder="Try climate, transfer, package, election...">
+          </div>
+        </section>
+        <aside class="stat-card" aria-label="Corpus summary">
+          <span class="stat-label">Corpus</span>
+          <strong id="docCount">--</strong>
+          <span>local documents</span>
+          <div class="stat-row">
+            <span id="topicCount">-- topics</span>
+            <span id="methodName">TF-IDF</span>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="topics-panel" aria-label="Topic filters">
+        <div class="panel-heading">
+          <p class="eyebrow">Clusters</p>
+          <h2>Topics</h2>
+        </div>
+        <div id="topicButtons" class="topic-buttons"></div>
+      </aside>
+
+      <section class="workspace" aria-live="polite">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected Topic</p>
+            <h2 id="activeTopicTitle">Loading topics...</h2>
+          </div>
+          <p id="activeTopicMeta" class="muted"></p>
+        </div>
+
+        <div id="termBars" class="term-bars" aria-label="Top topic terms"></div>
+        <div id="documents" class="documents"></div>
+
+        <section class="method" id="method">
+          <div>
+            <p class="eyebrow">Method</p>
+            <h2>Transparent local modeling</h2>
+          </div>
+          <p>The build step reads Markdown files, removes common stopwords, adds useful bigrams, computes TF-IDF weights and runs deterministic k-means. The browser receives only generated JSON, so the demo stays fast, offline and inspectable.</p>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

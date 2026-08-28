@@ -10,7 +10,8 @@
     "08-multi-model-comparator",
     "09-dataset-cleaner-agent",
     "10-automl-baseline-builder",
-    "11-sentiment-analyzer-dashboard"
+    "11-sentiment-analyzer-dashboard",
+    "12-topic-modeling-explorer"
   ],
-  "lastPublishedAt": "2026-08-27T19:54:51.992Z"
+  "lastPublishedAt": "2026-08-28T17:00:11.127Z"
 }

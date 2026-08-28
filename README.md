@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [12-topic-modeling-explorer](projects/12-topic-modeling-explorer)
+
 - [11-sentiment-analyzer-dashboard](projects/11-sentiment-analyzer-dashboard)
 
 - [10-automl-baseline-builder](projects/10-automl-baseline-builder)

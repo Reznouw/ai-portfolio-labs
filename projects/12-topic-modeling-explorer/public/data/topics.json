@@ -1,0 +1,368 @@
+{
+  "generatedAt": "deterministic-offline-build",
+  "method": "Local TF-IDF with deterministic k-means",
+  "documentCount": 10,
+  "topicCount": 5,
+  "topics": [
+    {
+      "id": "topic-1",
+      "label": "storage / funds / grid",
+      "terms": [
+        {
+          "term": "storage",
+          "score": 0.0456
+        },
+        {
+          "term": "funds",
+          "score": 0.0304
+        },
+        {
+          "term": "grid",
+          "score": 0.0304
+        },
+        {
+          "term": "maintainers",
+          "score": 0.0304
+        },
+        {
+          "term": "open",
+          "score": 0.0304
+        },
+        {
+          "term": "open source",
+          "score": 0.0304
+        },
+        {
+          "term": "package",
+          "score": 0.0304
+        },
+        {
+          "term": "source",
+          "score": 0.0304
+        }
+      ],
+      "documents": [
+        {
+          "id": "business-green-energy-investment",
+          "title": "Green Energy Funds Move Toward Grid Storage",
+          "source": "BBC-like Business",
+          "category": "business",
+          "text": "Investment funds are moving more capital into battery storage and grid software as renewable power expands. Project finance teams said solar and wind farms need storage contracts to protect revenue during periods of low demand. Governments are offering incentives, but developers warn that permitting delays and connection queues still slow clean energy projects.",
+          "clusterScore": 0.7218,
+          "topTerms": [
+            "storage",
+            "funds",
+            "grid",
+            "energy",
+            "battery"
+          ],
+          "tokenCount": 45
+        },
+        {
+          "id": "tech-open-source-security",
+          "title": "Open Source Maintainers Warn About Package Trust",
+          "source": "20-newsgroups-like Computing",
+          "category": "technology",
+          "text": "Developers in a software forum debated the security of public package registries after several maintainers reported phishing attempts. The discussion focused on signing releases, reviewing build scripts and limiting token permissions. Many contributors argued that open source projects need simpler tools for provenance because small volunteer teams cannot audit every dependency update.",
+          "clusterScore": 0.7162,
+          "topTerms": [
+            "maintainers",
+            "open",
+            "open source",
+            "package",
+            "source"
+          ],
+          "tokenCount": 45
+        }
+      ]
+    },
+    {
+      "id": "topic-2",
+      "label": "local / online / campaigns",
+      "terms": [
+        {
+          "term": "local",
+          "score": 0.0541
+        },
+        {
+          "term": "online",
+          "score": 0.0412
+        },
+        {
+          "term": "campaigns",
+          "score": 0.0361
+        },
+        {
+          "term": "election",
+          "score": 0.0361
+        },
+        {
+          "term": "online speech",
+          "score": 0.0304
+        },
+        {
+          "term": "policy",
+          "score": 0.0304
+        },
+        {
+          "term": "policy forum",
+          "score": 0.0304
+        },
+        {
+          "term": "rules",
+          "score": 0.0304
+        }
+      ],
+      "documents": [
+        {
+          "id": "politics-election-media",
+          "title": "Election Campaigns Increase Spending On Local Media",
+          "source": "BBC-like Politics",
+          "category": "politics",
+          "text": "Political parties are increasing advertising spend on local radio, regional newspapers and targeted digital campaigns before the election. Campaign managers said voters respond to messages about housing, transport and health services when they are tied to local examples. Regulators are monitoring online adverts for transparency and funding disclosures.",
+          "clusterScore": 0.7389,
+          "topTerms": [
+            "local",
+            "campaigns",
+            "election",
+            "advertising",
+            "advertising spend"
+          ],
+          "tokenCount": 38
+        },
+        {
+          "id": "politics-policy-forum",
+          "title": "Policy Forum Debates Online Speech Rules",
+          "source": "20-newsgroups-like Politics",
+          "category": "politics",
+          "text": "Members of a public policy forum argued over proposed online speech rules. Supporters said platforms need clearer duties to remove threats and coordinated abuse. Critics warned that vague moderation laws could limit political debate and make smaller websites responsible for complex legal decisions. The thread ended with calls for transparent appeals and independent review.",
+          "clusterScore": 0.691,
+          "topTerms": [
+            "online speech",
+            "policy",
+            "policy forum",
+            "rules",
+            "speech"
+          ],
+          "tokenCount": 45
+        }
+      ]
+    },
+    {
+      "id": "topic-3",
+      "label": "distant / space / space telescope",
+      "terms": [
+        {
+          "term": "distant",
+          "score": 0.0223
+        },
+        {
+          "term": "space",
+          "score": 0.0223
+        },
+        {
+          "term": "space telescope",
+          "score": 0.0223
+        },
+        {
+          "term": "telescope",
+          "score": 0.0223
+        },
+        {
+          "term": "water",
+          "score": 0.0223
+        },
+        {
+          "term": "climate",
+          "score": 0.0207
+        },
+        {
+          "term": "concerns",
+          "score": 0.0207
+        },
+        {
+          "term": "heat",
+          "score": 0.0207
+        }
+      ],
+      "documents": [
+        {
+          "id": "business-retail-inflation",
+          "title": "Retailers Adjust Prices As Inflation Cools",
+          "source": "BBC-like Business",
+          "category": "business",
+          "text": "Retail chains are changing promotion calendars as food inflation begins to cool. Executives said shoppers remain cautious and compare prices across supermarkets before buying premium products. Lower transport costs helped margins, but wage pressure and rent increases continue to shape quarterly forecasts. Economists expect discounting to remain strong through the holiday season.",
+          "clusterScore": 0.5607,
+          "topTerms": [
+            "inflation",
+            "prices",
+            "remain",
+            "across supermarkets",
+            "adjust"
+          ],
+          "tokenCount": 45
+        },
+        {
+          "id": "science-climate-ocean",
+          "title": "Ocean Heat Study Raises Climate Concerns",
+          "source": "BBC-like Science",
+          "category": "science",
+          "text": "Scientists reported that ocean heat levels reached new highs, increasing concerns about coral bleaching and stronger storms. The research team used satellite measurements and ship observations to compare temperature changes across decades. Climate specialists said reducing emissions remains urgent because warmer oceans store energy that can intensify extreme weather.",
+          "clusterScore": 0.5834,
+          "topTerms": [
+            "climate",
+            "concerns",
+            "heat",
+            "ocean",
+            "ocean heat"
+          ],
+          "tokenCount": 44
+        },
+        {
+          "id": "science-space-telescope",
+          "title": "Space Telescope Finds Water Clues On Distant World",
+          "source": "BBC-like Science",
+          "category": "science",
+          "text": "Astronomers using a space telescope found signs of water vapor in the atmosphere of a distant planet. The observation does not prove life, but it helps researchers understand how planets form around small stars. The team plans more measurements to test whether clouds, methane or carbon dioxide explain the spectral signal.",
+          "clusterScore": 0.604,
+          "topTerms": [
+            "distant",
+            "space",
+            "space telescope",
+            "telescope",
+            "water"
+          ],
+          "tokenCount": 41
+        }
+      ]
+    },
+    {
+      "id": "topic-4",
+      "label": "injury / data / champion",
+      "terms": [
+        {
+          "term": "injury",
+          "score": 0.0431
+        },
+        {
+          "term": "data",
+          "score": 0.0396
+        },
+        {
+          "term": "champion",
+          "score": 0.0351
+        },
+        {
+          "term": "tennis",
+          "score": 0.0351
+        },
+        {
+          "term": "tennis champion",
+          "score": 0.0351
+        },
+        {
+          "term": "clubs",
+          "score": 0.0311
+        },
+        {
+          "term": "football",
+          "score": 0.0311
+        },
+        {
+          "term": "football clubs",
+          "score": 0.0311
+        }
+      ],
+      "documents": [
+        {
+          "id": "sports-football-data",
+          "title": "Football Clubs Hire Data Analysts For Transfers",
+          "source": "BBC-like Sport",
+          "category": "sport",
+          "text": "Football clubs are expanding analytics departments before the summer transfer window. Recruitment teams use player tracking data, injury history and salary models to identify undervalued midfielders and defenders. Coaches say video scouting remains essential, but data analysis helps compare leagues and manage risk when transfer fees rise.",
+          "clusterScore": 0.7004,
+          "topTerms": [
+            "data",
+            "clubs",
+            "football",
+            "football clubs",
+            "transfer"
+          ],
+          "tokenCount": 44
+        },
+        {
+          "id": "sports-tennis-comeback",
+          "title": "Tennis Champion Returns After Injury Break",
+          "source": "BBC-like Sport",
+          "category": "sport",
+          "text": "A former tennis champion returned to competition after a long knee injury and won a close three-set match. The player credited careful rehabilitation, changes to training intensity and a more patient serve strategy. Fans welcomed the comeback, while commentators noted that tournament scheduling remains difficult for athletes rebuilding fitness.",
+          "clusterScore": 0.7349,
+          "topTerms": [
+            "champion",
+            "tennis",
+            "tennis champion",
+            "injury",
+            "athletes"
+          ],
+          "tokenCount": 39
+        }
+      ]
+    },
+    {
+      "id": "topic-5",
+      "label": "chip / cloud / accelerators",
+      "terms": [
+        {
+          "term": "chip",
+          "score": 0.0536
+        },
+        {
+          "term": "cloud",
+          "score": 0.0536
+        },
+        {
+          "term": "accelerators",
+          "score": 0.0268
+        },
+        {
+          "term": "accelerators reduce",
+          "score": 0.0268
+        },
+        {
+          "term": "analysts say",
+          "score": 0.0268
+        },
+        {
+          "term": "budgets",
+          "score": 0.0268
+        },
+        {
+          "term": "budgets infrastructure",
+          "score": 0.0268
+        },
+        {
+          "term": "center",
+          "score": 0.0268
+        }
+      ],
+      "documents": [
+        {
+          "id": "tech-ai-chip-race",
+          "title": "AI Chip Race Reshapes Cloud Spending",
+          "source": "BBC-like Technology",
+          "category": "technology",
+          "text": "Cloud providers are racing to secure graphics processors for generative AI services. Analysts say the cost of training large language models has moved from software budgets into infrastructure planning. Startups are signing multi-year compute contracts, while established vendors are designing custom accelerators to reduce energy use. The shift has made chip supply, data center cooling and model efficiency central issues for technology executives.",
+          "clusterScore": 1,
+          "topTerms": [
+            "chip",
+            "cloud",
+            "accelerators",
+            "accelerators reduce",
+            "analysts say"
+          ],
+          "tokenCount": 51
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "12-topic-modeling-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build-topics.js",
+    "dev": "node src/server.js",
+    "start": "npm run build && npm run dev",
+    "verify": "npm run build && node src/verify.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
