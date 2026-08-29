@@ -1,0 +1,85 @@
+{
+  "accuracy": 1,
+  "correct": 8,
+  "total": 8,
+  "byLabel": {
+    "world": {
+      "correct": 2,
+      "total": 2,
+      "accuracy": 1
+    },
+    "sports": {
+      "correct": 2,
+      "total": 2,
+      "accuracy": 1
+    },
+    "business": {
+      "correct": 2,
+      "total": 2,
+      "accuracy": 1
+    },
+    "technology": {
+      "correct": 2,
+      "total": 2,
+      "accuracy": 1
+    }
+  },
+  "predictions": [
+    {
+      "text": "leaders sign climate agreement after global summit",
+      "expected": "world",
+      "predicted": "world",
+      "score": 0.9998,
+      "correct": true
+    },
+    {
+      "text": "security council debates conflict near the border",
+      "expected": "world",
+      "predicted": "world",
+      "score": 0.9687,
+      "correct": true
+    },
+    {
+      "text": "club wins league final after late goal",
+      "expected": "sports",
+      "predicted": "sports",
+      "score": 1,
+      "correct": true
+    },
+    {
+      "text": "coach changes lineup before tennis championship",
+      "expected": "sports",
+      "predicted": "sports",
+      "score": 1,
+      "correct": true
+    },
+    {
+      "text": "markets rise after company profit report",
+      "expected": "business",
+      "predicted": "business",
+      "score": 0.9991,
+      "correct": true
+    },
+    {
+      "text": "investors watch central bank inflation decision",
+      "expected": "business",
+      "predicted": "business",
+      "score": 0.9987,
+      "correct": true
+    },
+    {
+      "text": "new chip improves artificial intelligence software",
+      "expected": "technology",
+      "predicted": "technology",
+      "score": 0.9967,
+      "correct": true
+    },
+    {
+      "text": "cloud security patch protects mobile devices",
+      "expected": "technology",
+      "predicted": "technology",
+      "score": 0.994,
+      "correct": true
+    }
+  ]
+}

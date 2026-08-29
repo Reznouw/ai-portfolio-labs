@@ -1,0 +1,43 @@
+{
+  "kind": "frozen-embedding-nearest-prototype",
+  "labels": [
+    "world",
+    "sports",
+    "business",
+    "technology"
+  ],
+  "dimensions": [
+    "world",
+    "sports",
+    "business",
+    "technology"
+  ],
+  "prototypes": {
+    "world": [
+      0.8987499999999999,
+      0,
+      0,
+      0.039999999999999994
+    ],
+    "sports": [
+      0,
+      0.995,
+      0,
+      0
+    ],
+    "business": [
+      0,
+      0,
+      0.985,
+      0.025
+    ],
+    "technology": [
+      0,
+      0.041666666666666664,
+      0.058333333333333334,
+      0.8773809523809524
+    ]
+  },
+  "trainExamples": 16,
+  "note": "Replace embedText with a BERT [CLS] embedding to turn this simulator into a real BERT-style classifier."
+}

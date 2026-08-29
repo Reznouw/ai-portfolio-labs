@@ -1,0 +1,31 @@
+{
+  "labels": ["world", "sports", "business", "technology"],
+  "train": [
+    { "label": "world", "text": "diplomats discuss peace talks after border tensions" },
+    { "label": "world", "text": "government leaders meet for global climate summit" },
+    { "label": "world", "text": "election observers report calm voting across the country" },
+    { "label": "world", "text": "foreign ministers agree on security council resolution" },
+    { "label": "sports", "text": "team wins championship after dramatic overtime goal" },
+    { "label": "sports", "text": "coach praises players after league match victory" },
+    { "label": "sports", "text": "tennis star reaches final with straight sets win" },
+    { "label": "sports", "text": "basketball club signs striker for playoff run" },
+    { "label": "business", "text": "stocks rally as investors expect lower interest rates" },
+    { "label": "business", "text": "company reports profit growth after strong quarterly sales" },
+    { "label": "business", "text": "central bank warns inflation may affect markets" },
+    { "label": "business", "text": "startup raises funding from venture investors" },
+    { "label": "technology", "text": "software company launches new artificial intelligence platform" },
+    { "label": "technology", "text": "researchers improve chip performance for mobile devices" },
+    { "label": "technology", "text": "cybersecurity team patches cloud server vulnerability" },
+    { "label": "technology", "text": "robotics lab releases open source machine learning toolkit" }
+  ],
+  "test": [
+    { "label": "world", "text": "leaders sign climate agreement after global summit" },
+    { "label": "world", "text": "security council debates conflict near the border" },
+    { "label": "sports", "text": "club wins league final after late goal" },
+    { "label": "sports", "text": "coach changes lineup before tennis championship" },
+    { "label": "business", "text": "markets rise after company profit report" },
+    { "label": "business", "text": "investors watch central bank inflation decision" },
+    { "label": "technology", "text": "new chip improves artificial intelligence software" },
+    { "label": "technology", "text": "cloud security patch protects mobile devices" }
+  ]
+}

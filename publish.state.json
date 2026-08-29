@@ -11,7 +11,8 @@
     "09-dataset-cleaner-agent",
     "10-automl-baseline-builder",
     "11-sentiment-analyzer-dashboard",
-    "12-topic-modeling-explorer"
+    "12-topic-modeling-explorer",
+    "13-text-classifier-with-bert"
   ],
-  "lastPublishedAt": "2026-08-28T17:00:11.127Z"
+  "lastPublishedAt": "2026-08-29T17:00:05.999Z"
 }
