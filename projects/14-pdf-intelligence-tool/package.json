@@ -1,0 +1,14 @@
+{
+  "name": "pdf-intelligence-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "analyze": "node src/cli.js",
+    "verify": "node src/cli.js && node src/verify.js",
+    "start": "npm run analyze"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

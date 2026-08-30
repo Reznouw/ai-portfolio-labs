@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [14-pdf-intelligence-tool](projects/14-pdf-intelligence-tool)
+
 - [13-text-classifier-with-bert](projects/13-text-classifier-with-bert)
 
 - [12-topic-modeling-explorer](projects/12-topic-modeling-explorer)

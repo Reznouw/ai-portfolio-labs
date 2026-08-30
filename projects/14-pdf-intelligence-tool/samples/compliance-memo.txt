@@ -1,0 +1,14 @@
+Document: Compliance Memo PDF Text Extract
+Reference: MEMO-88-A
+Date: 2026-08-05
+Owner: Operations Risk Team
+Contact: compliance@artesanal.example
+
+The Operations Risk Team completed a quarterly vendor compliance review. Two suppliers require updated insurance certificates before renewal. No critical findings were detected, but the audit trail must be refreshed by 2026-09-15.
+
+| Supplier | Status | Required Action | Due Date |
+| Northstar Components LLC | Conditional | Upload insurance certificate | 2026-08-25 |
+| Riverbend Logistics Inc | Conditional | Confirm data handling policy | 2026-09-01 |
+| Local Packaging Co | Approved | None | 2027-01-01 |
+
+Overall compliance score: 87 percent.

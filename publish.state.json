@@ -12,7 +12,8 @@
     "10-automl-baseline-builder",
     "11-sentiment-analyzer-dashboard",
     "12-topic-modeling-explorer",
-    "13-text-classifier-with-bert"
+    "13-text-classifier-with-bert",
+    "14-pdf-intelligence-tool"
   ],
-  "lastPublishedAt": "2026-08-29T17:00:05.999Z"
+  "lastPublishedAt": "2026-08-30T17:00:05.362Z"
 }

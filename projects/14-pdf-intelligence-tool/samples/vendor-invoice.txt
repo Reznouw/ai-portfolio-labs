@@ -1,0 +1,17 @@
+Document: Vendor Invoice PDF Text Extract
+Reference: INV-2026-0142
+Date: 2026-07-31
+Vendor: Northstar Components LLC
+Bill To: Artesanal Labs
+Contact: billing@northstar.example
+
+Northstar Components LLC requests payment for components delivered under purchase order PO-7781. Payment is due by 2026-08-30. Late payment may add a 2 percent service charge.
+
+| Item | Qty | Unit Price | Total |
+| Sensor Module | 12 | $48.00 | $576.00 |
+| Edge Gateway | 2 | $420.00 | $840.00 |
+| Shipping | 1 | $35.00 | $35.00 |
+
+Subtotal: $1451.00
+Tax: $116.08
+Total Due: $1567.08

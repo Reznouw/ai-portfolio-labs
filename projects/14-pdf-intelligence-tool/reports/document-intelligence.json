@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-08-15T22:17:34.887Z",
+  "source": "simulated extracted PDF text files",
+  "documents": [
+    {
+      "fileName": "compliance-memo.txt",
+      "title": "Compliance Memo PDF Text Extract",
+      "reference": "MEMO-88-A",
+      "summary": "Document: Compliance Memo PDF Text Extract Reference: MEMO-88-A Date: 2026-08-05 Owner: Operations Risk Team Contact: compliance@artesanal.example The Operations Risk Team completed a quarterly vendor compliance review. Two suppliers require updated insurance certificates before renewal.",
+      "entities": {
+        "dates": [
+          "2026-08-05",
+          "2026-09-15",
+          "2026-08-25",
+          "2026-09-01",
+          "2027-01-01"
+        ],
+        "money": [],
+        "percentages": [
+          "87 percent"
+        ],
+        "emails": [
+          "compliance@artesanal.example"
+        ],
+        "references": [
+          "MEMO-88-A"
+        ],
+        "organizations": [
+          "Operations Risk Team",
+          "The Operations Risk Team",
+          "Northstar Components LLC",
+          "Riverbend Logistics Inc",
+          "Local Packaging Co"
+        ]
+      },
+      "tableRows": [
+        {
+          "Supplier": "Northstar Components LLC",
+          "Status": "Conditional",
+          "Required Action": "Upload insurance certificate",
+          "Due Date": "2026-08-25"
+        },
+        {
+          "Supplier": "Riverbend Logistics Inc",
+          "Status": "Conditional",
+          "Required Action": "Confirm data handling policy",
+          "Due Date": "2026-09-01"
+        },
+        {
+          "Supplier": "Local Packaging Co",
+          "Status": "Approved",
+          "Required Action": "None",
+          "Due Date": "2027-01-01"
+        }
+      ],
+      "signals": [
+        "audit",
+        "compliance",
+        "due",
+        "renewal",
+        "risk"
+      ],
+      "stats": {
+        "characters": 697,
+        "words": 102
+      }
+    },
+    {
+      "fileName": "vendor-invoice.txt",
+      "title": "Vendor Invoice PDF Text Extract",
+      "reference": "INV-2026-0142",
+      "summary": "Document: Vendor Invoice PDF Text Extract Reference: INV-2026-0142 Date: 2026-07-31 Vendor: Northstar Components LLC Bill To: Artesanal Labs Contact: billing@northstar.example Northstar Components LLC requests payment for components delivered under purchase order PO-7781. Late payment may add a 2 percent service charge.",
+      "entities": {
+        "dates": [
+          "2026-07-31",
+          "2026-08-30"
+        ],
+        "money": [
+          "$48.00",
+          "$576.00",
+          "$420.00",
+          "$840.00",
+          "$35.00",
+          "$1451.00",
+          "$116.08",
+          "$1567.08"
+        ],
+        "percentages": [
+          "2 percent"
+        ],
+        "emails": [
+          "billing@northstar.example"
+        ],
+        "references": [
+          "INV-2026-0142",
+          "PO-7781"
+        ],
+        "organizations": [
+          "Northstar Components LLC",
+          "Artesanal Labs"
+        ]
+      },
+      "tableRows": [
+        {
+          "Item": "Sensor Module",
+          "Qty": "12",
+          "Unit Price": "$48.00",
+          "Total": "$576.00"
+        },
+        {
+          "Item": "Edge Gateway",
+          "Qty": "2",
+          "Unit Price": "$420.00",
+          "Total": "$840.00"
+        },
+        {
+          "Item": "Shipping",
+          "Qty": "1",
+          "Unit Price": "$35.00",
+          "Total": "$35.00"
+        }
+      ],
+      "signals": [
+        "due",
+        "late",
+        "payment"
+      ],
+      "stats": {
+        "characters": 561,
+        "words": 92
+      }
+    }
+  ],
+  "totals": {
+    "documents": 2,
+    "tableRows": 6,
+    "entities": 29
+  }
+}
