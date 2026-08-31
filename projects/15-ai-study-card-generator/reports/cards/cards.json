@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "AI Study Card Generator",
+    "mode": "offline-deterministic",
+    "generatedAt": "deterministic-run",
+    "sourceSections": 6,
+    "cardCount": 6
+  },
+  "cards": [
+    {
+      "id": "CARD-01",
+      "concept": "Photosynthesis",
+      "front": "Explain photosynthesis in your own words.",
+      "back": "Photosynthesis is the process plants, algae, and some bacteria use to convert light energy into chemical energy.",
+      "difficulty": "medium",
+      "tags": [
+        "energy",
+        "photosynthesis",
+        "absorb",
+        "algae"
+      ],
+      "evidence": "The overall purpose is to store energy in glucose while releasing oxygen as a byproduct.",
+      "reviewPrompt": "Connect photosynthesis to energy and photosynthesis."
+    },
+    {
+      "id": "CARD-02",
+      "concept": "Light-Dependent Reactions",
+      "front": "Explain light-dependent reactions in your own words.",
+      "back": "The light-dependent reactions occur in the thylakoid membranes of chloroplasts.",
+      "difficulty": "hard",
+      "tags": [
+        "reactions",
+        "light-dependent",
+        "carriers",
+        "chlorophyll"
+      ],
+      "evidence": "Water molecules are split, oxygen is released, and energy carriers ATP and NADPH are produced.",
+      "reviewPrompt": "Connect light-dependent reactions to reactions and light-dependent."
+    },
+    {
+      "id": "CARD-03",
+      "concept": "Calvin Cycle",
+      "front": "Explain calvin cycle in your own words.",
+      "back": "The Calvin cycle occurs in the stroma of chloroplasts.",
+      "difficulty": "hard",
+      "tags": [
+        "carbon",
+        "cycle",
+        "calvin",
+        "dioxide"
+      ],
+      "evidence": "It uses carbon dioxide, ATP, and NADPH to build sugar molecules.",
+      "reviewPrompt": "Connect calvin cycle to carbon and cycle."
+    },
+    {
+      "id": "CARD-04",
+      "concept": "Cellular Respiration",
+      "front": "Explain cellular respiration in your own words.",
+      "back": "Cellular respiration is the process cells use to break down glucose and release usable energy as ATP.",
+      "difficulty": "medium",
+      "tags": [
+        "respiration",
+        "glucose",
+        "cellular",
+        "plants"
+      ],
+      "evidence": "In aerobic respiration, oxygen is consumed and carbon dioxide and water are produced.",
+      "reviewPrompt": "Connect cellular respiration to respiration and glucose."
+    },
+    {
+      "id": "CARD-05",
+      "concept": "Energy Flow",
+      "front": "Explain energy flow in your own words.",
+      "back": "Photosynthesis and cellular respiration form a cycle of matter and energy flow.",
+      "difficulty": "hard",
+      "tags": [
+        "energy",
+        "cellular",
+        "flow",
+        "glucose"
+      ],
+      "evidence": "Photosynthesis stores energy by building glucose from carbon dioxide and water.",
+      "reviewPrompt": "Connect energy flow to energy and cellular."
+    },
+    {
+      "id": "CARD-06",
+      "concept": "Limiting Factors",
+      "front": "Explain limiting factors in your own words.",
+      "back": "The rate of photosynthesis can be limited by light intensity, carbon dioxide concentration, temperature, and water availability.",
+      "difficulty": "hard",
+      "tags": [
+        "factors",
+        "limiting",
+        "availability",
+        "carbon"
+      ],
+      "evidence": "If one factor is too low or too high, the process slows even when other factors are favorable.",
+      "reviewPrompt": "Connect limiting factors to factors and limiting."
+    }
+  ]
+}

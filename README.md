@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [15-ai-study-card-generator](projects/15-ai-study-card-generator)
+
 - [14-pdf-intelligence-tool](projects/14-pdf-intelligence-tool)
 
 - [13-text-classifier-with-bert](projects/13-text-classifier-with-bert)

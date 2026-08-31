@@ -1,0 +1,23 @@
+Photosynthesis
+
+Photosynthesis is the process plants, algae, and some bacteria use to convert light energy into chemical energy. The overall purpose is to store energy in glucose while releasing oxygen as a byproduct. Chlorophyll pigments in chloroplasts absorb sunlight, especially red and blue wavelengths.
+
+Light-Dependent Reactions
+
+The light-dependent reactions occur in the thylakoid membranes of chloroplasts. Water molecules are split, oxygen is released, and energy carriers ATP and NADPH are produced. These reactions depend directly on light because photons excite electrons in chlorophyll.
+
+Calvin Cycle
+
+The Calvin cycle occurs in the stroma of chloroplasts. It uses carbon dioxide, ATP, and NADPH to build sugar molecules. The enzyme RuBisCO attaches carbon dioxide to RuBP during carbon fixation. The cycle does not require light directly, but it depends on ATP and NADPH from the light-dependent reactions.
+
+Cellular Respiration
+
+Cellular respiration is the process cells use to break down glucose and release usable energy as ATP. In aerobic respiration, oxygen is consumed and carbon dioxide and water are produced. Respiration happens in both plants and animals, so plants both make glucose through photosynthesis and later use glucose through respiration.
+
+Energy Flow
+
+Photosynthesis and cellular respiration form a cycle of matter and energy flow. Photosynthesis stores energy by building glucose from carbon dioxide and water. Cellular respiration releases energy by breaking glucose apart. The products of one process are often reactants for the other.
+
+Limiting Factors
+
+The rate of photosynthesis can be limited by light intensity, carbon dioxide concentration, temperature, and water availability. If one factor is too low or too high, the process slows even when other factors are favorable. Understanding limiting factors helps explain plant growth in different environments.

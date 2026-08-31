@@ -1,0 +1,14 @@
+{
+  "name": "15-ai-study-card-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node src/cli.js --input sample/educational-text.txt --json reports/cards/cards.json --markdown reports/cards/cards.md",
+    "dev": "node src/server.js",
+    "verify": "npm run generate && node src/verify.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Study Card Generator</title>
+    <link rel="stylesheet" href="/public/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Offline structured generation</p>
+          <h1 id="page-title">AI Study Card Generator</h1>
+          <p class="lede">Turn sample educational text into concept cards with definitions, evidence, tags, and review prompts.</p>
+        </div>
+        <div class="hero-card" aria-label="Deck summary">
+          <span id="card-count">0</span>
+          <small>cards generated</small>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="study-rail" aria-label="Study controls">
+          <label for="search">Search concepts</label>
+          <input id="search" type="search" placeholder="Try Calvin or energy">
+
+          <label for="difficulty">Difficulty</label>
+          <select id="difficulty">
+            <option value="all">All cards</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+
+          <div class="progress-box">
+            <span>Reviewed</span>
+            <strong id="reviewed-count">0</strong>
+          </div>
+
+          <nav class="report-links" aria-label="Generated reports">
+            <a href="/reports/cards/cards.json">JSON report</a>
+            <a href="/reports/cards/cards.md">Markdown report</a>
+          </nav>
+        </aside>
+
+        <section class="card-stage" aria-live="polite">
+          <div id="cards" class="cards"></div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="/public/app.js"></script>
+  </body>
+</html>
