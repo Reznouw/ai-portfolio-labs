@@ -1,0 +1,44 @@
+[
+  {
+    "id": "embedding",
+    "term": "Embedding",
+    "category": "representation",
+    "definition": "A numeric vector that represents text, images, or other data so similar items are close in vector space.",
+    "example": "A search system can compare a question embedding with document embeddings to find related passages."
+  },
+  {
+    "id": "rag",
+    "term": "Retrieval Augmented Generation",
+    "category": "architecture",
+    "definition": "A pattern where a model retrieves relevant external context before generating an answer.",
+    "example": "A support bot retrieves product docs before writing a response."
+  },
+  {
+    "id": "prompt-injection",
+    "term": "Prompt Injection",
+    "category": "security",
+    "definition": "An attack where untrusted text tries to override or manipulate a model's instructions.",
+    "example": "A web page says to ignore previous instructions and leak private data."
+  },
+  {
+    "id": "tool-calling",
+    "term": "Tool Calling",
+    "category": "agentic-ai",
+    "definition": "A model capability where the assistant requests a structured external function call instead of only producing text.",
+    "example": "An assistant calls a weather API after the user asks for today's forecast."
+  },
+  {
+    "id": "context-window",
+    "term": "Context Window",
+    "category": "model-limits",
+    "definition": "The maximum amount of input and generated text a model can consider during one interaction.",
+    "example": "Long documents may need chunking because they exceed the context window."
+  },
+  {
+    "id": "json-rpc",
+    "term": "JSON-RPC",
+    "category": "protocol",
+    "definition": "A lightweight request and response protocol that represents methods, parameters, results, and errors as JSON objects.",
+    "example": "A client sends {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}."
+  }
+]

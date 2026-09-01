@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":3,"result":{"content":[{"type":"json","json":{"matches":[{"id":"rag","term":"Retrieval Augmented Generation","category":"architecture","definition":"A pattern where a model retrieves relevant external context before generating an answer.","example":"A support bot retrieves product docs before writing a response."}]}}]}}
