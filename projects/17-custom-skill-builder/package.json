@@ -1,0 +1,19 @@
+{
+  "name": "custom-skill-builder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "custom-skill-builder": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/index.js generate --brief examples/task-brief.txt --out examples/generated/SKILL.md",
+    "validate": "node src/index.js validate examples/generated/SKILL.md",
+    "examples": "node src/index.js examples",
+    "verify": "node src/index.js verify"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

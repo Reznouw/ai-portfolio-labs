@@ -1,0 +1,6 @@
+Name: Research Brief Summarizer
+Task: Convert long research notes into concise structured briefings for AI agents.
+Trigger: Use when the user provides notes, links, or pasted research and wants a reusable agent workflow for summarization.
+Inputs: research notes, source URLs, target audience, desired depth
+Outputs: executive summary, key evidence, open questions, next actions
+Constraints: do not invent facts, preserve source attribution, keep recommendations separate from evidence

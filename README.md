@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [17-custom-skill-builder](projects/17-custom-skill-builder)
+
 - [16-mcp-server-basico](projects/16-mcp-server-basico)
 
 - [15-ai-study-card-generator](projects/15-ai-study-card-generator)
