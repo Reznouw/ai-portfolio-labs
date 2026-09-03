@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": "inventory-cleanup",
+      "title": "Normalize an inventory label list",
+      "input": ["  Maple Bowl", "cedar spoon", "maple bowl", "WALNUT CUP  "],
+      "expected": ["cedar spoon", "maple bowl", "walnut cup"],
+      "requiredActions": ["trim", "lowercase", "dedupe", "sort"],
+      "maxIterations": 5,
+      "budget": 14
+    },
+    {
+      "id": "shipping-priority",
+      "title": "Prepare priority shipping labels",
+      "input": ["  Beta Crate", "alpha crate", "gamma crate"],
+      "expected": ["alpha crate", "beta crate", "gamma crate"],
+      "requiredActions": ["trim", "lowercase", "sort"],
+      "maxIterations": 4,
+      "budget": 9
+    },
+    {
+      "id": "underfunded-cleanup",
+      "title": "Show budget stop before convergence",
+      "input": ["  Zeta", "alpha", "ALPHA"],
+      "expected": ["alpha", "zeta"],
+      "requiredActions": ["trim", "lowercase", "dedupe", "sort"],
+      "maxIterations": 6,
+      "budget": 4
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "generatedAt": "deterministic-offline-run",
+  "taskCount": 3,
+  "actionBudgetTable": {
+    "trim": 2,
+    "lowercase": 2,
+    "dedupe": 3,
+    "sort": 3,
+    "reverse": 1
+  },
+  "tasks": [
+    {
+      "id": "inventory-cleanup",
+      "title": "Normalize an inventory label list",
+      "controls": {
+        "maxIterations": 5,
+        "budget": 14
+      },
+      "input": [
+        "  Maple Bowl",
+        "cedar spoon",
+        "maple bowl",
+        "WALNUT CUP  "
+      ],
+      "expected": [
+        "cedar spoon",
+        "maple bowl",
+        "walnut cup"
+      ],
+      "requiredActions": [
+        "trim",
+        "lowercase",
+        "dedupe",
+        "sort"
+      ],
+      "spent": 10,
+      "stopReason": "success",
+      "passed": true,
+      "finalOutput": [
+        "cedar spoon",
+        "maple bowl",
+        "walnut cup"
+      ],
+      "iterations": [
+        {
+          "iteration": 1,
+          "plan": {
+            "action": "trim",
+            "reason": "Next missing required action is trim."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 2,
+            "spent": 2,
+            "remainingBudget": 12,
+            "output": [
+              "Maple Bowl",
+              "cedar spoon",
+              "maple bowl",
+              "WALNUT CUP"
+            ]
+          },
+          "evaluate": {
+            "passed": false,
+            "outputMatches": false,
+            "missingActions": [
+              "lowercase",
+              "dedupe",
+              "sort"
+            ],
+            "expectedLength": 3,
+            "actualLength": 4,
+            "diff": [
+              {
+                "index": 0,
+                "actual": "Maple Bowl",
+                "expected": "cedar spoon"
+              },
+              {
+                "index": 1,
+                "actual": "cedar spoon",
+                "expected": "maple bowl"
+              },
+              {
+                "index": 2,
+                "actual": "maple bowl",
+                "expected": "walnut cup"
+              },
+              {
+                "index": 3,
+                "actual": "WALNUT CUP",
+                "expected": null
+              }
+            ]
+          }
+        },
+        {
+          "iteration": 2,
+          "plan": {
+            "action": "lowercase",
+            "reason": "Next missing required action is lowercase."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 2,
+            "spent": 4,
+            "remainingBudget": 10,
+            "output": [
+              "maple bowl",
+              "cedar spoon",
+              "maple bowl",
+              "walnut cup"
+            ]
+          },
+          "evaluate": {
+            "passed": false,
+            "outputMatches": false,
+            "missingActions": [
+              "dedupe",
+              "sort"
+            ],
+            "expectedLength": 3,
+            "actualLength": 4,
+            "diff": [
+              {
+                "index": 0,
+                "actual": "maple bowl",
+                "expected": "cedar spoon"
+              },
+              {
+                "index": 1,
+                "actual": "cedar spoon",
+                "expected": "maple bowl"
+              },
+              {
+                "index": 2,
+                "actual": "maple bowl",
+                "expected": "walnut cup"
+              },
+              {
+                "index": 3,
+                "actual": "walnut cup",
+                "expected": null
+              }
+            ]
+          }
+        },
+        {
+          "iteration": 3,
+          "plan": {
+            "action": "dedupe",
+            "reason": "Next missing required action is dedupe."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 3,
+            "spent": 7,
+            "remainingBudget": 7,
+            "output": [
+              "maple bowl",
+              "cedar spoon",
+              "walnut cup"
+            ]
+          },
+          "evaluate": {
+            "passed": false,
+            "outputMatches": false,
+            "missingActions": [
+              "sort"
+            ],
+            "expectedLength": 3,
+            "actualLength": 3,
+            "diff": [
+              {
+                "index": 0,
+                "actual": "maple bowl",
+                "expected": "cedar spoon"
+              },
+              {
+                "index": 1,
+                "actual": "cedar spoon",
+                "expected": "maple bowl"
+              }
+            ]
+          }
+        },
+        {
+          "iteration": 4,
+          "plan": {
+            "action": "sort",
+            "reason": "Next missing required action is sort."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 3,
+            "spent": 10,
+            "remainingBudget": 4,
+            "output": [
+              "cedar spoon",
+              "maple bowl",
+              "walnut cup"
+            ]
+          },
+          "evaluate": {
+            "passed": true,
+            "outputMatches": true,
+            "missingActions": [],
+            "expectedLength": 3,
+            "actualLength": 3,
+            "diff": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "shipping-priority",
+      "title": "Prepare priority shipping labels",
+      "controls": {
+        "maxIterations": 4,
+        "budget": 9
+      },
+      "input": [
+        "  Beta Crate",
+        "alpha crate",
+        "gamma crate"
+      ],
+      "expected": [
+        "alpha crate",
+        "beta crate",
+        "gamma crate"
+      ],
+      "requiredActions": [
+        "trim",
+        "lowercase",
+        "sort"
+      ],
+      "spent": 7,
+      "stopReason": "success",
+      "passed": true,
+      "finalOutput": [
+        "alpha crate",
+        "beta crate",
+        "gamma crate"
+      ],
+      "iterations": [
+        {
+          "iteration": 1,
+          "plan": {
+            "action": "trim",
+            "reason": "Next missing required action is trim."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 2,
+            "spent": 2,
+            "remainingBudget": 7,
+            "output": [
+              "Beta Crate",
+              "alpha crate",
+              "gamma crate"
+            ]
+          },
+          "evaluate": {
+            "passed": false,
+            "outputMatches": false,
+            "missingActions": [
+              "lowercase",
+              "sort"
+            ],
+            "expectedLength": 3,
+            "actualLength": 3,
+            "diff": [
+              {
+                "index": 0,
+                "actual": "Beta Crate",
+                "expected": "alpha crate"
+              },
+              {
+                "index": 1,
+                "actual": "alpha crate",
+                "expected": "beta crate"
+              }
+            ]
+          }
+        },
+        {
+          "iteration": 2,
+          "plan": {
+            "action": "lowercase",
+            "reason": "Next missing required action is lowercase."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 2,
+            "spent": 4,
+            "remainingBudget": 5,
+            "output": [
+              "beta crate",
+              "alpha crate",
+              "gamma crate"
+            ]
+          },
+          "evaluate": {
+            "passed": false,
+            "outputMatches": false,
+            "missingActions": [
+              "sort"
+            ],
+            "expectedLength": 3,
+            "actualLength": 3,
+            "diff": [
+              {
+                "index": 0,
+                "actual": "beta crate",
+                "expected": "alpha crate"
+              },
+              {
+                "index": 1,
+                "actual": "alpha crate",
+                "expected": "beta crate"
+              }
+            ]
+          }
+        },
+        {
+          "iteration": 3,
+          "plan": {
+            "action": "sort",
+            "reason": "Next missing required action is sort."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 3,
+            "spent": 7,
+            "remainingBudget": 2,
+            "output": [
+              "alpha crate",
+              "beta crate",
+              "gamma crate"
+            ]
+          },
+          "evaluate": {
+            "passed": true,
+            "outputMatches": true,
+            "missingActions": [],
+            "expectedLength": 3,
+            "actualLength": 3,
+            "diff": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "underfunded-cleanup",
+      "title": "Show budget stop before convergence",
+      "controls": {
+        "maxIterations": 6,
+        "budget": 4
+      },
+      "input": [
+        "  Zeta",
+        "alpha",
+        "ALPHA"
+      ],
+      "expected": [
+        "alpha",
+        "zeta"
+      ],
+      "requiredActions": [
+        "trim",
+        "lowercase",
+        "dedupe",
+        "sort"
+      ],
+      "spent": 4,
+      "stopReason": "budget_exhausted",
+      "passed": false,
+      "finalOutput": [
+        "zeta",
+        "alpha",
+        "alpha"
+      ],
+      "iterations": [
+        {
+          "iteration": 1,
+          "plan": {
+            "action": "trim",
+            "reason": "Next missing required action is trim."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 2,
+            "spent": 2,
+            "remainingBudget": 2,
+            "output": [
+              "Zeta",
+              "alpha",
+              "ALPHA"
+            ]
+          },
+          "evaluate": {
+            "passed": false,
+            "outputMatches": false,
+            "missingActions": [
+              "lowercase",
+              "dedupe",
+              "sort"
+            ],
+            "expectedLength": 2,
+            "actualLength": 3,
+            "diff": [
+              {
+                "index": 0,
+                "actual": "Zeta",
+                "expected": "alpha"
+              },
+              {
+                "index": 1,
+                "actual": "alpha",
+                "expected": "zeta"
+              },
+              {
+                "index": 2,
+                "actual": "ALPHA",
+                "expected": null
+              }
+            ]
+          }
+        },
+        {
+          "iteration": 2,
+          "plan": {
+            "action": "lowercase",
+            "reason": "Next missing required action is lowercase."
+          },
+          "execute": {
+            "skipped": false,
+            "cost": 2,
+            "spent": 4,
+            "remainingBudget": 0,
+            "output": [
+              "zeta",
+              "alpha",
+              "alpha"
+            ]
+          },
+          "evaluate": {
+            "passed": false,
+            "outputMatches": false,
+            "missingActions": [
+              "dedupe",
+              "sort"
+            ],
+            "expectedLength": 2,
+            "actualLength": 3,
+            "diff": [
+              {
+                "index": 0,
+                "actual": "zeta",
+                "expected": "alpha"
+              },
+              {
+                "index": 1,
+                "actual": "alpha",
+                "expected": "zeta"
+              },
+              {
+                "index": 2,
+                "actual": "alpha",
+                "expected": null
+              }
+            ]
+          }
+        },
+        {
+          "iteration": 3,
+          "plan": {
+            "action": "dedupe",
+            "reason": "Next missing required action is dedupe."
+          },
+          "execute": {
+            "skipped": true,
+            "reason": "budget_exhausted",
+            "cost": 3,
+            "spent": 4,
+            "remainingBudget": 0,
+            "output": [
+              "zeta",
+              "alpha",
+              "alpha"
+            ]
+          },
+          "evaluate": {
+            "passed": false,
+            "outputMatches": false,
+            "missingActions": [
+              "dedupe",
+              "sort"
+            ],
+            "expectedLength": 2,
+            "actualLength": 3,
+            "diff": [
+              {
+                "index": 0,
+                "actual": "zeta",
+                "expected": "alpha"
+              },
+              {
+                "index": 1,
+                "actual": "alpha",
+                "expected": "zeta"
+              },
+              {
+                "index": 2,
+                "actual": "alpha",
+                "expected": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "18-agent-loop-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node src/cli.js --tasks samples/tasks.json --json reports/trace.json --markdown reports/trace.md",
+    "verify": "npm run run && node src/verify.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
