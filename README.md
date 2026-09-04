@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [19-multi-agent-research-team](projects/19-multi-agent-research-team)
+
 - [18-agent-loop-sandbox](projects/18-agent-loop-sandbox)
 
 - [17-custom-skill-builder](projects/17-custom-skill-builder)

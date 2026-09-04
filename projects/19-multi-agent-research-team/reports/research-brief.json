@@ -1,0 +1,155 @@
+{
+  "topic": "Should the city deploy neighborhood cooling hubs during heat waves?",
+  "recommendation": "Deploy cooling hubs as a targeted heat-risk intervention, but gate expansion on staffing, site access, and cost controls [SRC-001] [SRC-004] [SRC-006] [SRC-002] [SRC-003].",
+  "keyFindings": [
+    {
+      "citation": "SRC-001",
+      "finding": "Neighborhood cooling hubs reduced heat-related emergency calls by 18 percent in the pilot districts when open from noon to 8 p.m. The strongest usage came from seniors, outdoor workers, and households without reliable air conditioning.",
+      "stance": "supporting"
+    },
+    {
+      "citation": "SRC-004",
+      "finding": "Residents supported cooling hubs but asked the city to avoid placing all sites downtown. Several speakers requested school gyms, libraries, and faith centers within walking distance of high-risk blocks.",
+      "stance": "mixed"
+    },
+    {
+      "citation": "SRC-006",
+      "finding": "Heat mapping found surface temperatures up to 9 degrees Fahrenheit higher in low-canopy neighborhoods. The study recommended locating cooling hubs near bus routes in those hot spots rather than distributing sites evenly by council district.",
+      "stance": "supporting"
+    },
+    {
+      "citation": "SRC-002",
+      "finding": "Clinic staff reported fewer dehydration complaints on days when transit flyers directed residents to cooling hubs. Staff noted that multilingual signage mattered because many residents did not know city shelters were open to walk-ins.",
+      "stance": "supporting"
+    }
+  ],
+  "citations": [
+    {
+      "id": "SRC-001",
+      "title": "City Heat Response After-Action Memo",
+      "url": "local://city-heat-response-memo",
+      "date": "2026-07-03",
+      "sourceType": "municipal memo"
+    },
+    {
+      "id": "SRC-004",
+      "title": "Community Advisory Board Minutes",
+      "url": "local://advisory-board-minutes",
+      "date": "2026-04-18",
+      "sourceType": "meeting minutes"
+    },
+    {
+      "id": "SRC-006",
+      "title": "Local University Heat Mapping Study",
+      "url": "local://university-heat-map-study",
+      "date": "2026-02-14",
+      "sourceType": "research summary"
+    },
+    {
+      "id": "SRC-002",
+      "title": "Public Health Clinic Intake Notes",
+      "url": "local://clinic-heat-intake-notes",
+      "date": "2026-06-21",
+      "sourceType": "clinic summary"
+    },
+    {
+      "id": "SRC-003",
+      "title": "Facility Operations Cost Sheet",
+      "url": "local://cooling-hub-cost-sheet",
+      "date": "2026-05-11",
+      "sourceType": "budget worksheet"
+    }
+  ],
+  "criticNotes": [
+    "Evidence has multiple supporting sources, but impact claims still depend on local implementation quality.",
+    "Cautionary sources identify cost, staffing, and operational reliability as deployment risks.",
+    "Community feedback supports the idea while warning that site placement can create equity gaps."
+  ],
+  "agentTrace": [
+    {
+      "agent": "researcher",
+      "note": "Selected 5 evidence items from 6 local sources.",
+      "selectedIds": [
+        "SRC-001",
+        "SRC-004",
+        "SRC-006",
+        "SRC-002",
+        "SRC-003"
+      ]
+    },
+    {
+      "agent": "critic",
+      "verdict": "usable with caveats",
+      "notes": [
+        "Evidence has multiple supporting sources, but impact claims still depend on local implementation quality.",
+        "Cautionary sources identify cost, staffing, and operational reliability as deployment risks.",
+        "Community feedback supports the idea while warning that site placement can create equity gaps."
+      ]
+    },
+    {
+      "agent": "writer",
+      "note": "Wrote Markdown and JSON research brief."
+    }
+  ],
+  "debug": {
+    "topicTerms": [
+      "cooling",
+      "deploy",
+      "heat",
+      "hubs",
+      "neighborhood",
+      "waves"
+    ],
+    "selectedEvidence": [
+      {
+        "id": "SRC-001",
+        "score": 4,
+        "matchedTerms": [
+          "cooling",
+          "heat",
+          "hubs",
+          "neighborhood"
+        ],
+        "stance": "supporting"
+      },
+      {
+        "id": "SRC-004",
+        "score": 3,
+        "matchedTerms": [
+          "cooling",
+          "hubs"
+        ],
+        "stance": "mixed"
+      },
+      {
+        "id": "SRC-006",
+        "score": 3,
+        "matchedTerms": [
+          "cooling",
+          "heat",
+          "hubs"
+        ],
+        "stance": "supporting"
+      },
+      {
+        "id": "SRC-002",
+        "score": 2,
+        "matchedTerms": [
+          "cooling",
+          "hubs"
+        ],
+        "stance": "supporting"
+      },
+      {
+        "id": "SRC-003",
+        "score": 2,
+        "matchedTerms": [
+          "cooling",
+          "hubs"
+        ],
+        "stance": "cautionary"
+      }
+    ]
+  },
+  "markdown": "# Research Brief\n\n## Topic\nShould the city deploy neighborhood cooling hubs during heat waves?\n\n## Recommendation\nDeploy cooling hubs as a targeted heat-risk intervention, but gate expansion on staffing, site access, and cost controls [SRC-001] [SRC-004] [SRC-006] [SRC-002] [SRC-003].\n\n## Key Findings\n- Neighborhood cooling hubs reduced heat-related emergency calls by 18 percent in the pilot districts when open from noon to 8 p.m. The strongest usage came from seniors, outdoor workers, and households without reliable air conditioning. [SRC-001]\n- Residents supported cooling hubs but asked the city to avoid placing all sites downtown. Several speakers requested school gyms, libraries, and faith centers within walking distance of high-risk blocks. [SRC-004]\n- Heat mapping found surface temperatures up to 9 degrees Fahrenheit higher in low-canopy neighborhoods. The study recommended locating cooling hubs near bus routes in those hot spots rather than distributing sites evenly by council district. [SRC-006]\n- Clinic staff reported fewer dehydration complaints on days when transit flyers directed residents to cooling hubs. Staff noted that multilingual signage mattered because many residents did not know city shelters were open to walk-ins. [SRC-002]\n\n## Critic Notes\n- Evidence has multiple supporting sources, but impact claims still depend on local implementation quality.\n- Cautionary sources identify cost, staffing, and operational reliability as deployment risks.\n- Community feedback supports the idea while warning that site placement can create equity gaps.\n\n## Citations\n- [SRC-001] City Heat Response After-Action Memo. municipal memo. 2026-07-03. local://city-heat-response-memo\n- [SRC-004] Community Advisory Board Minutes. meeting minutes. 2026-04-18. local://advisory-board-minutes\n- [SRC-006] Local University Heat Mapping Study. research summary. 2026-02-14. local://university-heat-map-study\n- [SRC-002] Public Health Clinic Intake Notes. clinic summary. 2026-06-21. local://clinic-heat-intake-notes\n- [SRC-003] Facility Operations Cost Sheet. budget worksheet. 2026-05-11. local://cooling-hub-cost-sheet\n\n## Agent Trace\n- researcher: Selected 5 evidence items from 6 local sources.\n- critic: verdict is usable with caveats; source type count is 5.\n- writer: assembled recommendation, findings, citations, and critic notes."
+}

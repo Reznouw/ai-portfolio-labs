@@ -1,0 +1,56 @@
+[
+  {
+    "id": "SRC-001",
+    "title": "City Heat Response After-Action Memo",
+    "url": "local://city-heat-response-memo",
+    "date": "2026-07-03",
+    "sourceType": "municipal memo",
+    "stance": "supporting",
+    "passage": "Neighborhood cooling hubs reduced heat-related emergency calls by 18 percent in the pilot districts when open from noon to 8 p.m. The strongest usage came from seniors, outdoor workers, and households without reliable air conditioning."
+  },
+  {
+    "id": "SRC-002",
+    "title": "Public Health Clinic Intake Notes",
+    "url": "local://clinic-heat-intake-notes",
+    "date": "2026-06-21",
+    "sourceType": "clinic summary",
+    "stance": "supporting",
+    "passage": "Clinic staff reported fewer dehydration complaints on days when transit flyers directed residents to cooling hubs. Staff noted that multilingual signage mattered because many residents did not know city shelters were open to walk-ins."
+  },
+  {
+    "id": "SRC-003",
+    "title": "Facility Operations Cost Sheet",
+    "url": "local://cooling-hub-cost-sheet",
+    "date": "2026-05-11",
+    "sourceType": "budget worksheet",
+    "stance": "cautionary",
+    "passage": "Cooling hubs require staffing, water, security, cleaning, and backup power checks. The average daily operating cost was estimated at 1320 dollars per site, excluding one-time generator maintenance."
+  },
+  {
+    "id": "SRC-004",
+    "title": "Community Advisory Board Minutes",
+    "url": "local://advisory-board-minutes",
+    "date": "2026-04-18",
+    "sourceType": "meeting minutes",
+    "stance": "mixed",
+    "passage": "Residents supported cooling hubs but asked the city to avoid placing all sites downtown. Several speakers requested school gyms, libraries, and faith centers within walking distance of high-risk blocks."
+  },
+  {
+    "id": "SRC-005",
+    "title": "Emergency Management Drill Report",
+    "url": "local://emergency-drill-report",
+    "date": "2026-03-29",
+    "sourceType": "operations report",
+    "stance": "cautionary",
+    "passage": "The drill found that cooling hubs fail quickly without clear role assignment. Two sites opened late because keys, supply bins, and volunteer contact lists were held by different departments."
+  },
+  {
+    "id": "SRC-006",
+    "title": "Local University Heat Mapping Study",
+    "url": "local://university-heat-map-study",
+    "date": "2026-02-14",
+    "sourceType": "research summary",
+    "stance": "supporting",
+    "passage": "Heat mapping found surface temperatures up to 9 degrees Fahrenheit higher in low-canopy neighborhoods. The study recommended locating cooling hubs near bus routes in those hot spots rather than distributing sites evenly by council district."
+  }
+]
