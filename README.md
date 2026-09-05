@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [20-ai-web-scraper-with-guardrails](projects/20-ai-web-scraper-with-guardrails)
+
 - [19-multi-agent-research-team](projects/19-multi-agent-research-team)
 
 - [18-agent-loop-sandbox](projects/18-agent-loop-sandbox)

@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-15T22:28:22.686Z",
+  "items": [
+    {
+      "id": "verify-valid-1",
+      "sourceId": "verify-valid",
+      "title": "Local model guardrails improve scraper reliability",
+      "url": "https://example.com/ai/scraper-guardrails",
+      "summary": "A practical pattern shows how strict source allowlists reduce unsafe scraping behavior in small automation tools.",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "id": "verify-valid-2",
+      "sourceId": "verify-valid",
+      "title": "Schema checks catch broken extraction early",
+      "url": "https://research.example.com/schema-checks",
+      "summary": "Teams are adding lightweight validation before writing scraper output so downstream reports stay predictable.",
+      "publishedAt": "2026-08-14"
+    },
+    {
+      "id": "verify-valid-3",
+      "sourceId": "verify-valid",
+      "title": "Fixture-first scraping keeps demos reproducible",
+      "url": "https://example.com/ai/local-fixtures",
+      "summary": "Local HTML fixtures make it possible to verify extraction logic without relying on flaky external websites.",
+      "publishedAt": "2026-08-13"
+    }
+  ]
+}

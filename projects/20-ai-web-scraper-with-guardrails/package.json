@@ -1,0 +1,13 @@
+{
+  "name": "20-ai-web-scraper-with-guardrails",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node src/index.js",
+    "verify": "node src/verify.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

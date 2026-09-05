@@ -18,7 +18,8 @@
     "16-mcp-server-basico",
     "17-custom-skill-builder",
     "18-agent-loop-sandbox",
-    "19-multi-agent-research-team"
+    "19-multi-agent-research-team",
+    "20-ai-web-scraper-with-guardrails"
   ],
-  "lastPublishedAt": "2026-09-04T17:00:05.716Z"
+  "lastPublishedAt": "2026-09-05T17:00:07.148Z"
 }

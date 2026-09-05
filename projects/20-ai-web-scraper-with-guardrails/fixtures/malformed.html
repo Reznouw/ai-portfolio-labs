@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Malformed Fixture</title>
+  </head>
+  <body>
+    <main>
+      <article data-record="article">
+        <h2 data-field="title">Bad</h2>
+        <a data-field="url" href="http://example.com/insecure">Read article</a>
+        <p data-field="summary">Too short.</p>
+        <time data-field="publishedAt" datetime="2026-08-15">August 15, 2026</time>
+      </article>
+
+      <article data-record="article">
+        <h2 data-field="title">This record links to a blocked domain</h2>
+        <a data-field="url" href="https://evil.example.net/story">Read article</a>
+        <p data-field="summary">The link should be rejected because the content domain is not allowlisted for this source.</p>
+        <time data-field="publishedAt" datetime="2026-08-15">August 15, 2026</time>
+      </article>
+
+      <article data-record="article">
+        <h2 data-field="title">This record has a malformed date</h2>
+        <a data-field="url" href="https://example.com/date-problem">Read article</a>
+        <p data-field="summary">The date does not use the required ISO-like year month day format expected by the schema.</p>
+        <time data-field="publishedAt" datetime="15-08-2026">August 15, 2026</time>
+      </article>
+    </main>
+  </body>
+</html>
