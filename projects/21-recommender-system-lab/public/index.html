@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recommender System Lab</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Mini MovieLens Lab</p>
+          <h1 id="page-title">Item-based movie recommendations without the black box.</h1>
+          <p class="lede">Pick a tiny user profile, inspect the taste signals, and see why each movie is recommended.</p>
+        </div>
+        <div class="control-card" aria-label="Recommendation controls">
+          <label for="user-select">Viewer profile</label>
+          <select id="user-select"></select>
+          <button id="refresh-button" type="button">Refresh ranking</button>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Dataset summary">
+        <article>
+          <span id="movie-count">--</span>
+          <p>Movies</p>
+        </article>
+        <article>
+          <span id="rating-count">--</span>
+          <p>Ratings</p>
+        </article>
+        <article>
+          <span id="user-count">--</span>
+          <p>Users</p>
+        </article>
+        <article>
+          <span id="average-rating">--</span>
+          <p>Avg rating</p>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <aside class="profile-panel" aria-labelledby="profile-title">
+          <p class="eyebrow">Taste profile</p>
+          <h2 id="profile-title">Watched by <span id="profile-user">U1</span></h2>
+          <div id="favorite-genres" class="pill-row"></div>
+          <div id="watched-list" class="watched-list"></div>
+        </aside>
+
+        <section class="recommendation-panel" aria-labelledby="recommendation-title">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Ranked output</p>
+              <h2 id="recommendation-title">Recommended next</h2>
+            </div>
+            <p class="method-note">Similarity = shared genres + mood + year + runtime proximity.</p>
+          </div>
+          <div id="recommendation-list" class="recommendation-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
