@@ -1,0 +1,318 @@
+{
+  "generatedAt": "2026-08-15T23:05:39.775Z",
+  "baseline": {
+    "amountAverage": 115.93,
+    "amountP95": 381.29,
+    "globalMedian": 56,
+    "threshold": 50
+  },
+  "metrics": {
+    "tp": 6,
+    "fp": 0,
+    "tn": 10,
+    "fn": 0,
+    "precision": 1,
+    "recall": 1,
+    "f1": 1,
+    "accuracy": 1,
+    "falsePositiveRate": 0
+  },
+  "drift": {
+    "summary": "high",
+    "checks": [
+      {
+        "name": "amount_distribution",
+        "value": 0.3713,
+        "severity": "high"
+      },
+      {
+        "name": "category_mix",
+        "value": 0.5587,
+        "severity": "high"
+      },
+      {
+        "name": "foreign_rate_delta",
+        "value": 0.0208,
+        "severity": "low"
+      },
+      {
+        "name": "fraud_rate_proxy_delta",
+        "value": 0.0972,
+        "severity": "medium"
+      }
+    ]
+  },
+  "scoredTransactions": [
+    {
+      "transaction_id": "n001",
+      "timestamp": "2026-08-01T08:06:00Z",
+      "user_id": "u01",
+      "card_id": "c01",
+      "amount": 14.25,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "grocery",
+      "hour": 8,
+      "is_fraud": 0,
+      "score": 0,
+      "predicted_fraud": 0,
+      "reasons": []
+    },
+    {
+      "transaction_id": "n002",
+      "timestamp": "2026-08-01T09:14:00Z",
+      "user_id": "u02",
+      "card_id": "c02",
+      "amount": 62.1,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "restaurant",
+      "hour": 9,
+      "is_fraud": 0,
+      "score": 0,
+      "predicted_fraud": 0,
+      "reasons": []
+    },
+    {
+      "transaction_id": "n003",
+      "timestamp": "2026-08-01T10:28:00Z",
+      "user_id": "u03",
+      "card_id": "c03",
+      "amount": 188.9,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "electronics",
+      "hour": 10,
+      "is_fraud": 0,
+      "score": 10,
+      "predicted_fraud": 0,
+      "reasons": [
+        "user_amount_spike"
+      ]
+    },
+    {
+      "transaction_id": "n004",
+      "timestamp": "2026-08-01T11:01:00Z",
+      "user_id": "u04",
+      "card_id": "c04",
+      "amount": 27.4,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "transport",
+      "hour": 11,
+      "is_fraud": 0,
+      "score": 0,
+      "predicted_fraud": 0,
+      "reasons": []
+    },
+    {
+      "transaction_id": "n005",
+      "timestamp": "2026-08-01T12:12:00Z",
+      "user_id": "u05",
+      "card_id": "c05",
+      "amount": 156,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "travel",
+      "hour": 12,
+      "is_fraud": 0,
+      "score": 0,
+      "predicted_fraud": 0,
+      "reasons": []
+    },
+    {
+      "transaction_id": "n006",
+      "timestamp": "2026-08-01T13:05:00Z",
+      "user_id": "u06",
+      "card_id": "c06",
+      "amount": 520,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "travel",
+      "hour": 13,
+      "is_fraud": 0,
+      "score": 0,
+      "predicted_fraud": 0,
+      "reasons": []
+    },
+    {
+      "transaction_id": "n007",
+      "timestamp": "2026-08-01T13:20:00Z",
+      "user_id": "u06",
+      "card_id": "c06",
+      "amount": 535,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "travel",
+      "hour": 13,
+      "is_fraud": 0,
+      "score": 0,
+      "predicted_fraud": 0,
+      "reasons": []
+    },
+    {
+      "transaction_id": "n008",
+      "timestamp": "2026-08-01T13:36:00Z",
+      "user_id": "u06",
+      "card_id": "c06",
+      "amount": 560,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "travel",
+      "hour": 13,
+      "is_fraud": 1,
+      "score": 50,
+      "predicted_fraud": 1,
+      "reasons": [
+        "card_velocity",
+        "high_value_velocity"
+      ]
+    },
+    {
+      "transaction_id": "n009",
+      "timestamp": "2026-08-01T14:44:00Z",
+      "user_id": "u07",
+      "card_id": "c07",
+      "amount": 39.5,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "grocery",
+      "hour": 14,
+      "is_fraud": 0,
+      "score": 0,
+      "predicted_fraud": 0,
+      "reasons": []
+    },
+    {
+      "transaction_id": "n010",
+      "timestamp": "2026-08-01T23:58:00Z",
+      "user_id": "u16",
+      "card_id": "c16",
+      "amount": 1180,
+      "merchant_country": "RO",
+      "user_country": "US",
+      "merchant_category": "crypto",
+      "hour": 23,
+      "is_fraud": 1,
+      "score": 110,
+      "predicted_fraud": 1,
+      "reasons": [
+        "high_amount",
+        "foreign_merchant",
+        "risky_category",
+        "unusual_hour",
+        "user_amount_spike"
+      ]
+    },
+    {
+      "transaction_id": "n011",
+      "timestamp": "2026-08-02T00:12:00Z",
+      "user_id": "u17",
+      "card_id": "c17",
+      "amount": 950,
+      "merchant_country": "NG",
+      "user_country": "US",
+      "merchant_category": "gift_card",
+      "hour": 0,
+      "is_fraud": 1,
+      "score": 110,
+      "predicted_fraud": 1,
+      "reasons": [
+        "high_amount",
+        "foreign_merchant",
+        "risky_category",
+        "unusual_hour",
+        "user_amount_spike"
+      ]
+    },
+    {
+      "transaction_id": "n012",
+      "timestamp": "2026-08-02T01:41:00Z",
+      "user_id": "u18",
+      "card_id": "c18",
+      "amount": 280,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "gambling",
+      "hour": 1,
+      "is_fraud": 1,
+      "score": 50,
+      "predicted_fraud": 1,
+      "reasons": [
+        "risky_category",
+        "unusual_hour",
+        "user_amount_spike"
+      ]
+    },
+    {
+      "transaction_id": "n013",
+      "timestamp": "2026-08-02T02:03:00Z",
+      "user_id": "u19",
+      "card_id": "c19",
+      "amount": 760,
+      "merchant_country": "BR",
+      "user_country": "US",
+      "merchant_category": "electronics",
+      "hour": 2,
+      "is_fraud": 1,
+      "score": 50,
+      "predicted_fraud": 1,
+      "reasons": [
+        "foreign_merchant",
+        "unusual_hour",
+        "user_amount_spike"
+      ]
+    },
+    {
+      "transaction_id": "n014",
+      "timestamp": "2026-08-02T03:25:00Z",
+      "user_id": "u20",
+      "card_id": "c20",
+      "amount": 85,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "digital",
+      "hour": 3,
+      "is_fraud": 0,
+      "score": 15,
+      "predicted_fraud": 0,
+      "reasons": [
+        "unusual_hour"
+      ]
+    },
+    {
+      "transaction_id": "n015",
+      "timestamp": "2026-08-02T18:21:00Z",
+      "user_id": "u21",
+      "card_id": "c21",
+      "amount": 34.7,
+      "merchant_country": "CA",
+      "user_country": "CA",
+      "merchant_category": "grocery",
+      "hour": 18,
+      "is_fraud": 0,
+      "score": 0,
+      "predicted_fraud": 0,
+      "reasons": []
+    },
+    {
+      "transaction_id": "n016",
+      "timestamp": "2026-08-02T20:10:00Z",
+      "user_id": "u22",
+      "card_id": "c22",
+      "amount": 1410,
+      "merchant_country": "US",
+      "user_country": "US",
+      "merchant_category": "luxury",
+      "hour": 20,
+      "is_fraud": 1,
+      "score": 70,
+      "predicted_fraud": 1,
+      "reasons": [
+        "high_amount",
+        "risky_category",
+        "user_amount_spike"
+      ]
+    }
+  ]
+}

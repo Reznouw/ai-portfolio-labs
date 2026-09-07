@@ -1,0 +1,15 @@
+{
+  "name": "fraud-detection-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic fraud detection monitor with baseline rules, metrics, drift checks, and local report dashboard.",
+  "scripts": {
+    "report": "node src/monitor.js",
+    "verify": "node src/verify.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

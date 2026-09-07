@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [22-fraud-detection-monitor](projects/22-fraud-detection-monitor)
+
 - [21-recommender-system-lab](projects/21-recommender-system-lab)
 
 - [20-ai-web-scraper-with-guardrails](projects/20-ai-web-scraper-with-guardrails)

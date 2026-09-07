@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fraud Detection Monitor</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Mini-project 22</p>
+          <h1>Fraud Detection Monitor</h1>
+          <p class="lede">Transparent baseline rules, live-style scoring, performance metrics, and drift checks on a tiny transaction dataset.</p>
+        </div>
+        <div class="status-card">
+          <span class="label">Drift severity</span>
+          <strong id="drift-status">Loading</strong>
+        </div>
+      </section>
+
+      <section class="grid metrics" id="metrics"></section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Drift Checks</h2>
+          <a href="/report.md">Markdown report</a>
+        </div>
+        <div id="drift-checks" class="checks"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Flagged Transactions</h2>
+          <span id="flagged-count"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Score</th>
+                <th>Actual</th>
+                <th>Reasons</th>
+              </tr>
+            </thead>
+            <tbody id="transactions"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
