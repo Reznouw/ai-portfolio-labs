@@ -1,0 +1,13 @@
+{
+  "name": "23-time-series-forecasting",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "forecast": "node src/forecast.js",
+    "verify": "node src/forecast.js --verify"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
