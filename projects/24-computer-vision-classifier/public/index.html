@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Vision Classifier</title>
+    <link rel="stylesheet" href="/src/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Mini-project 24</p>
+          <h1 id="page-title">Tiny vision classifier, fully inspectable.</h1>
+          <p>No model weights, no PNG parser, no mystery. This app classifies ASCII and JSON pixel grids by extracting visible features and comparing them with shape and clothing prototypes.</p>
+        </div>
+        <aside class="hero-card" aria-label="Project facts">
+          <div class="metric">
+            <span>Input format</span>
+            <strong>ASCII + JSON grids</strong>
+          </div>
+          <div class="metric">
+            <span>Classifier</span>
+            <strong>Feature prototype scoring</strong>
+          </div>
+          <div class="metric">
+            <span>Classes</span>
+            <strong>5 visual labels</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel">
+          <h2>Samples</h2>
+          <div id="sample-list" class="sample-list" aria-label="Sample list"></div>
+        </aside>
+
+        <section class="inspector" aria-live="polite">
+          <div class="panel sample-stage">
+            <div>
+              <h2 id="sample-title">Loading</h2>
+              <p id="sample-subtitle" class="sample-subtitle">Preparing sample.</p>
+              <div class="grid-wrap">
+                <div id="pixel-grid" class="pixel-grid" aria-label="Pixel grid"></div>
+              </div>
+            </div>
+            <div class="prediction-card">
+              <p class="eyebrow">Prediction</p>
+              <h2 id="prediction-label">...</h2>
+              <p id="prediction-meta">Waiting for classifier output.</p>
+              <div id="prediction-bars"></div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Extracted Features</h3>
+            <div id="feature-panel" class="feature-grid"></div>
+          </div>
+
+          <div class="panel">
+            <h3>Dataset Check</h3>
+            <div id="summary-panel" class="summary-grid"></div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [24-computer-vision-classifier](projects/24-computer-vision-classifier)
+
 - [23-time-series-forecasting](projects/23-time-series-forecasting)
 
 - [22-fraud-detection-monitor](projects/22-fraud-detection-monitor)
