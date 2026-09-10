@@ -1,0 +1,21 @@
+PATIENT INTAKE FORM
+Clinic: Artisan Health Center
+Form ID: FRM-8852
+Date: 2026/08/04
+
+Patient Name: Maria Torres
+Date of Birth: 1991-03-18
+Phone: +51 987 654 321
+Email: maria.torres@example.com
+Address: Av. Los Robles 240, Lima
+
+Emergency Contact: Elena Torres
+Emergency Phone: +51 955 000 111
+
+Symptoms:
+- persistent cough
+- mild fever
+- fatigue
+
+Consent: YES
+Signature: Maria Torres

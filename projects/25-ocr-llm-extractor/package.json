@@ -1,0 +1,17 @@
+{
+  "name": "ocr-llm-extractor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free OCR text fixture extractor with rule-based and optional LLM-assisted field extraction.",
+  "scripts": {
+    "extract": "node src/cli.js",
+    "extract:json": "node src/cli.js --input fixtures/data/invoice-001.txt --format json --out reports/invoice-001.json",
+    "extract:md": "node src/cli.js --input fixtures/data/form-intake-001.txt --format markdown --out reports/form-intake-001.md",
+    "serve": "node src/server.js",
+    "verify": "node src/verify.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

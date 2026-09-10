@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OCR + LLM Extractor</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Mini-project 25</p>
+        <h1>OCR text in. Structured fields out.</h1>
+        <p class="lede">Review noisy invoice, receipt, and form fixtures through a deterministic extraction pipeline with optional LLM refinement.</p>
+        <div class="controls">
+          <label for="fixture">Fixture</label>
+          <select id="fixture">
+            <option value="invoice-001.txt">Invoice</option>
+            <option value="form-intake-001.txt">Intake form</option>
+            <option value="receipt-001.txt">Receipt</option>
+          </select>
+        </div>
+      </section>
+      <section class="grid">
+        <article class="card summary">
+          <p class="label">Detected type</p>
+          <h2 id="documentType">Loading</h2>
+          <p id="confidence">Confidence pending</p>
+        </article>
+        <article class="card">
+          <h2>Fields</h2>
+          <div id="fields" class="fields"></div>
+        </article>
+        <article class="card code-card">
+          <h2>Structured JSON</h2>
+          <pre id="json"></pre>
+        </article>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

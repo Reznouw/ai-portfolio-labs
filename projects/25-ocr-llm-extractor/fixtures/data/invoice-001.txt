@@ -1,0 +1,21 @@
+ACME BUILDERS LLC
+INVOICE
+Invoice No: INV-2026-0142
+Invoice Date: 2026-08-01
+Due Date: 2026-08-31
+
+Bill To:
+Northwind Market Cooperative
+310 Harbor Ave
+Lima, PE 15074
+Email: ap@northwind.example
+
+Description                         Qty    Unit Price    Amount
+Concrete repair labor               18     45.00         810.00
+Sealant materials                   6      32.50         195.00
+Site cleanup                        1      120.00        120.00
+
+Subtotal: USD 1,125.00
+Tax: USD 202.50
+Total Due: USD 1,327.50
+Payment Terms: Net 30

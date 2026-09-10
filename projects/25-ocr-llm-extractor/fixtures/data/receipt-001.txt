@@ -1,0 +1,14 @@
+GREEN CORNER GROCER
+Receipt # R-44912
+Date 15-Aug-2026 10:42
+Cashier: Luis
+
+Organic apples        2 x 3.20    6.40
+Quinoa 1kg            1 x 8.90    8.90
+Coffee beans          1 x 13.50   13.50
+
+Subtotal              28.80
+Sales Tax             2.30
+TOTAL                 31.10
+Paid by Visa ending 4421
+Customer: Ana Ruiz

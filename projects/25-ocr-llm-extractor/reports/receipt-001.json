@@ -1,0 +1,61 @@
+{
+  "fields": {
+    "documentType": "receipt",
+    "source": "fixtures\\data\\receipt-001.txt",
+    "ids": {
+      "receiptNumber": "R-44912"
+    },
+    "dates": {
+      "documentDate": "15-Aug-2026 10:42"
+    },
+    "parties": {
+      "issuer": "GREEN CORNER GROCER",
+      "customer": "Ana Ruiz"
+    },
+    "contacts": {},
+    "amounts": {
+      "subtotal": {
+        "currency": null,
+        "value": 28.8
+      },
+      "total": {
+        "currency": null,
+        "value": 31.1
+      },
+      "tax": {
+        "currency": null,
+        "value": 2.3
+      }
+    },
+    "lineItems": [
+      {
+        "description": "Organic apples",
+        "quantity": 2,
+        "unitPrice": 3.2,
+        "amount": 6.4
+      },
+      {
+        "description": "Quinoa 1kg",
+        "quantity": 1,
+        "unitPrice": 8.9,
+        "amount": 8.9
+      },
+      {
+        "description": "Coffee beans",
+        "quantity": 1,
+        "unitPrice": 13.5,
+        "amount": 13.5
+      }
+    ],
+    "formFields": {
+      "cashier": "Luis",
+      "customer": "Ana Ruiz"
+    },
+    "confidence": 1
+  },
+  "metadata": {
+    "extractor": "rules-v1",
+    "lineCount": 12,
+    "warnings": []
+  }
+}

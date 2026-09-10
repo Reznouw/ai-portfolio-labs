@@ -1,0 +1,44 @@
+{
+  "fields": {
+    "documentType": "form",
+    "source": "fixtures\\data\\form-intake-001.txt",
+    "ids": {
+      "formId": "FRM-8852"
+    },
+    "dates": {
+      "documentDate": "of Birth: 1991-03-18",
+      "dateOfBirth": "1991-03-18"
+    },
+    "parties": {
+      "issuer": "Artisan Health Center",
+      "patient": "Maria Torres"
+    },
+    "contacts": {
+      "email": "maria.torres@example.com",
+      "phone": "+51 987 654 321",
+      "address": "Av. Los Robles 240, Lima"
+    },
+    "amounts": {},
+    "lineItems": [],
+    "formFields": {
+      "clinic": "Artisan Health Center",
+      "formId": "FRM-8852",
+      "date": "2026/08/04",
+      "patientName": "Maria Torres",
+      "dateOfBirth": "1991-03-18",
+      "phone": "+51 987 654 321",
+      "email": "maria.torres@example.com",
+      "address": "Av. Los Robles 240, Lima",
+      "emergencyContact": "Elena Torres",
+      "emergencyPhone": "+51 955 000 111",
+      "consent": "YES",
+      "signature": "Maria Torres"
+    },
+    "confidence": 1
+  },
+  "metadata": {
+    "extractor": "rules-v1",
+    "lineCount": 17,
+    "warnings": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "fields": {
+    "documentType": "invoice",
+    "source": "fixtures\\data\\invoice-001.txt",
+    "ids": {
+      "invoiceNumber": "INV-2026-0142"
+    },
+    "dates": {
+      "invoiceDate": "2026-08-01",
+      "dueDate": "2026-08-31"
+    },
+    "parties": {
+      "issuer": "ACME BUILDERS LLC",
+      "billTo": "Northwind Market Cooperative"
+    },
+    "contacts": {
+      "email": "ap@northwind.example"
+    },
+    "amounts": {
+      "subtotal": {
+        "currency": "USD",
+        "value": 1125
+      },
+      "total": {
+        "currency": "USD",
+        "value": 1327.5
+      },
+      "tax": {
+        "currency": "USD",
+        "value": 202.5
+      }
+    },
+    "lineItems": [
+      {
+        "description": "Concrete repair labor",
+        "quantity": 18,
+        "unitPrice": 45,
+        "amount": 810
+      },
+      {
+        "description": "Sealant materials",
+        "quantity": 6,
+        "unitPrice": 32.5,
+        "amount": 195
+      },
+      {
+        "description": "Site cleanup",
+        "quantity": 1,
+        "unitPrice": 120,
+        "amount": 120
+      }
+    ],
+    "formFields": {
+      "invoiceNo": "INV-2026-0142",
+      "invoiceDate": "2026-08-01",
+      "dueDate": "2026-08-31",
+      "email": "ap@northwind.example",
+      "subtotal": "USD 1,125.00",
+      "tax": "USD 202.50",
+      "totalDue": "USD 1,327.50",
+      "paymentTerms": "Net 30"
+    },
+    "confidence": 1
+  },
+  "metadata": {
+    "extractor": "rules-v1",
+    "lineCount": 18,
+    "warnings": []
+  }
+}
