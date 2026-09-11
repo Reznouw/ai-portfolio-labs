@@ -1,0 +1,50 @@
+{
+  "id": "team-standup-014",
+  "title": "Analytics team standup",
+  "recordedAt": "2026-08-02T09:00:00Z",
+  "audio": {
+    "fileName": "standup.wav",
+    "durationSeconds": 428,
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "language": "en-US",
+    "averageConfidence": 0.87
+  },
+  "segments": [
+    {
+      "speaker": "Data Analyst",
+      "start": 3.5,
+      "end": 24.8,
+      "confidence": 0.86,
+      "text": "Yesterday I finished the revenue dashboard draft, but the retention query is slow and needs an index review."
+    },
+    {
+      "speaker": "Engineering Lead",
+      "start": 27.0,
+      "end": 51.2,
+      "confidence": 0.9,
+      "text": "I can review the retention query today and propose an index plan before end of day."
+    },
+    {
+      "speaker": "Product Manager",
+      "start": 56.4,
+      "end": 83.0,
+      "confidence": 0.88,
+      "text": "The launch readout is on Thursday, so we need the dashboard screenshots and a short narrative by Wednesday morning."
+    },
+    {
+      "speaker": "Data Analyst",
+      "start": 86.7,
+      "end": 113.2,
+      "confidence": 0.84,
+      "text": "I will prepare the screenshots after the query is fixed. The narrative is mostly ready and feedback has been positive."
+    },
+    {
+      "speaker": "Engineering Lead",
+      "start": 119.9,
+      "end": 138.6,
+      "confidence": 0.87,
+      "text": "Please flag any blocker by noon tomorrow so we do not surprise the launch team."
+    }
+  ]
+}

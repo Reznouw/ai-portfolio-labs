@@ -1,0 +1,57 @@
+{
+  "id": "customer-call-001",
+  "title": "Customer onboarding call",
+  "recordedAt": "2026-08-01T15:30:00Z",
+  "audio": {
+    "fileName": "customer-call.wav",
+    "durationSeconds": 612,
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "language": "en-US",
+    "averageConfidence": 0.91
+  },
+  "segments": [
+    {
+      "speaker": "Customer",
+      "start": 4.2,
+      "end": 21.6,
+      "confidence": 0.93,
+      "text": "We are excited about the pilot, but the import workflow is still confusing for our operations team."
+    },
+    {
+      "speaker": "Product Lead",
+      "start": 24.1,
+      "end": 43.4,
+      "confidence": 0.92,
+      "text": "The team can simplify the first-run import screen and add a clearer checklist before Friday."
+    },
+    {
+      "speaker": "Customer",
+      "start": 47.3,
+      "end": 66.8,
+      "confidence": 0.9,
+      "text": "That would help. We also need confirmation that failed rows can be exported because audit tracking is important."
+    },
+    {
+      "speaker": "Solutions Engineer",
+      "start": 71.2,
+      "end": 95.5,
+      "confidence": 0.88,
+      "text": "I will send a sample failed-row export and document the audit fields by tomorrow afternoon."
+    },
+    {
+      "speaker": "Product Lead",
+      "start": 101.0,
+      "end": 128.9,
+      "confidence": 0.94,
+      "text": "We should schedule a follow-up review next Tuesday after your team tests the revised import checklist."
+    },
+    {
+      "speaker": "Customer",
+      "start": 134.1,
+      "end": 154.7,
+      "confidence": 0.89,
+      "text": "Overall the pilot looks promising, although our team is worried about delays if the audit export is not ready."
+    }
+  ]
+}

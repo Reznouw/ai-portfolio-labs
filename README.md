@@ -72,6 +72,8 @@ Cada proyecto publicado vive dentro de `projects/` e incluye su propio `README.m
 
 ## Proyectos Publicados
 
+- [26-speech-to-insight](projects/26-speech-to-insight)
+
 - [25-ocr-llm-extractor](projects/25-ocr-llm-extractor)
 
 - [24-computer-vision-classifier](projects/24-computer-vision-classifier)

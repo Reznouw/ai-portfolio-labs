@@ -1,0 +1,88 @@
+{
+  "id": "customer-call-001",
+  "title": "Customer onboarding call",
+  "recordedAt": "2026-08-01T15:30:00Z",
+  "generatedAt": "2026-08-15T22:42:05.494Z",
+  "audio": {
+    "fileName": "customer-call.wav",
+    "durationSeconds": 612,
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "language": "en-US",
+    "averageConfidence": 0.91
+  },
+  "transcript": "Customer: We are excited about the pilot, but the import workflow is still confusing for our operations team.\nProduct Lead: The team can simplify the first-run import screen and add a clearer checklist before Friday.\nCustomer: That would help. We also need confirmation that failed rows can be exported because audit tracking is important.\nSolutions Engineer: I will send a sample failed-row export and document the audit fields by tomorrow afternoon.\nProduct Lead: We should schedule a follow-up review next Tuesday after your team tests the revised import checklist.\nCustomer: Overall the pilot looks promising, although our team is worried about delays if the audit export is not ready.",
+  "summary": "We are excited about the pilot, but the import workflow is still confusing for our operations team. The team can simplify the first-run import screen and add a clearer checklist before Friday. Overall the pilot looks promising, although our team is worried about delays if the audit export is not ready.",
+  "sentiment": {
+    "label": "positive",
+    "score": 3,
+    "positiveHits": [
+      "excited",
+      "simplify",
+      "clearer",
+      "help",
+      "important",
+      "revised",
+      "promising",
+      "ready"
+    ],
+    "negativeHits": [
+      "confusing",
+      "failed",
+      "worried",
+      "delays"
+    ]
+  },
+  "actionItems": [
+    {
+      "id": "A01",
+      "owner": "Team",
+      "task": "The team can simplify the first-run import screen and add a clearer checklist before Friday",
+      "due": "before Friday",
+      "priority": "normal",
+      "sourceSpeaker": "Product Lead",
+      "sourceTurn": 2
+    },
+    {
+      "id": "A02",
+      "owner": "Solutions Engineer",
+      "task": "I will send a sample failed-row export and document the audit fields by tomorrow afternoon",
+      "due": "by tomorrow afternoon",
+      "priority": "high",
+      "sourceSpeaker": "Solutions Engineer",
+      "sourceTurn": 4
+    },
+    {
+      "id": "A03",
+      "owner": "Team",
+      "task": "We should schedule a follow-up review next Tuesday after your team tests the revised import checklist",
+      "due": "next Tuesday",
+      "priority": "normal",
+      "sourceSpeaker": "Product Lead",
+      "sourceTurn": 5
+    }
+  ],
+  "quality": {
+    "averageConfidence": 0.91,
+    "lowConfidenceTurns": 0,
+    "durationMinutes": 10.2,
+    "note": "ASR confidence is acceptable for draft insights."
+  },
+  "speakers": [
+    {
+      "name": "Customer",
+      "turns": 3,
+      "talkTimeSeconds": 57.5
+    },
+    {
+      "name": "Product Lead",
+      "turns": 2,
+      "talkTimeSeconds": 47.2
+    },
+    {
+      "name": "Solutions Engineer",
+      "turns": 1,
+      "talkTimeSeconds": 24.299999999999997
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "speech-to-insight",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free speech transcript fixture to summary, sentiment, and action items pipeline.",
+  "scripts": {
+    "generate": "node src/cli.js --fixture data/fixtures/customer-call.json --json reports/customer-call.json --markdown reports/customer-call.md",
+    "generate:team": "node src/cli.js --fixture data/fixtures/team-standup.json --json reports/team-standup.json --markdown reports/team-standup.md",
+    "verify": "node src/verify.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

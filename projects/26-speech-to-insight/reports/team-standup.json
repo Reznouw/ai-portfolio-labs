@@ -1,0 +1,99 @@
+{
+  "id": "team-standup-014",
+  "title": "Analytics team standup",
+  "recordedAt": "2026-08-02T09:00:00Z",
+  "generatedAt": "2026-08-15T22:42:05.593Z",
+  "audio": {
+    "fileName": "standup.wav",
+    "durationSeconds": 428,
+    "sampleRateHz": 16000,
+    "channels": 1,
+    "language": "en-US",
+    "averageConfidence": 0.87
+  },
+  "transcript": "Data Analyst: Yesterday I finished the revenue dashboard draft, but the retention query is slow and needs an index review.\nEngineering Lead: I can review the retention query today and propose an index plan before end of day.\nProduct Manager: The launch readout is on Thursday, so we need the dashboard screenshots and a short narrative by Wednesday morning.\nData Analyst: I will prepare the screenshots after the query is fixed. The narrative is mostly ready and feedback has been positive.\nEngineering Lead: Please flag any blocker by noon tomorrow so we do not surprise the launch team.",
+  "summary": "Yesterday I finished the revenue dashboard draft, but the retention query is slow and needs an index review. I will prepare the screenshots after the query is fixed. The narrative is mostly ready and feedback has been positive. Please flag any blocker by noon tomorrow so we do not surprise the launch team.",
+  "sentiment": {
+    "label": "mixed",
+    "score": -1,
+    "positiveHits": [
+      "ready",
+      "positive"
+    ],
+    "negativeHits": [
+      "slow",
+      "blocker",
+      "surprise"
+    ]
+  },
+  "actionItems": [
+    {
+      "id": "A01",
+      "owner": "Data Analyst",
+      "task": "Yesterday I finished the revenue dashboard draft, but the retention query is slow and needs an index review",
+      "due": "No explicit due date",
+      "priority": "normal",
+      "sourceSpeaker": "Data Analyst",
+      "sourceTurn": 1
+    },
+    {
+      "id": "A02",
+      "owner": "Engineering Lead",
+      "task": "I can review the retention query today and propose an index plan before end of day",
+      "due": "today",
+      "priority": "normal",
+      "sourceSpeaker": "Engineering Lead",
+      "sourceTurn": 2
+    },
+    {
+      "id": "A03",
+      "owner": "Shared",
+      "task": "The launch readout is on Thursday, so we need the dashboard screenshots and a short narrative by Wednesday morning",
+      "due": "Thursday",
+      "priority": "high",
+      "sourceSpeaker": "Product Manager",
+      "sourceTurn": 3
+    },
+    {
+      "id": "A04",
+      "owner": "Data Analyst",
+      "task": "I will prepare the screenshots after the query is fixed. The narrative is mostly ready and feedback has been positive",
+      "due": "No explicit due date",
+      "priority": "normal",
+      "sourceSpeaker": "Data Analyst",
+      "sourceTurn": 4
+    },
+    {
+      "id": "A05",
+      "owner": "Team",
+      "task": "Please flag any blocker by noon tomorrow so we do not surprise the launch team",
+      "due": "by noon tomorrow",
+      "priority": "high",
+      "sourceSpeaker": "Engineering Lead",
+      "sourceTurn": 5
+    }
+  ],
+  "quality": {
+    "averageConfidence": 0.87,
+    "lowConfidenceTurns": 1,
+    "durationMinutes": 7.1,
+    "note": "Review low-confidence turns before sharing externally."
+  },
+  "speakers": [
+    {
+      "name": "Data Analyst",
+      "turns": 2,
+      "talkTimeSeconds": 47.8
+    },
+    {
+      "name": "Engineering Lead",
+      "turns": 2,
+      "talkTimeSeconds": 42.89999999999999
+    },
+    {
+      "name": "Product Manager",
+      "turns": 1,
+      "talkTimeSeconds": 26.6
+    }
+  ]
+}
