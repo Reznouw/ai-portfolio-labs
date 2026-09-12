@@ -1,0 +1,16 @@
+{
+  "name": "27-guardrails-playground",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline deterministic playground for testing prompt guardrails against adversarial inputs.",
+  "scripts": {
+    "demo": "node src/cli.js",
+    "report": "node src/cli.js --report",
+    "serve": "node src/server.js",
+    "verify": "node src/verify.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

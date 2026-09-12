@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guardrails Playground</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Offline deterministic safety lab</p>
+          <h1>Guardrails Playground</h1>
+          <p class="lede">Test prompt format, safety, length, schema, banned content, and refusal boundaries before an adversarial prompt reaches a model.</p>
+        </div>
+        <div class="hero-card" aria-label="Current guardrail summary">
+          <span class="status-dot"></span>
+          <strong>No API keys. No model calls.</strong>
+          <p>Local rules produce stable decisions for demos and regression checks.</p>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="samples-panel">
+          <div class="panel-header">
+            <h2>Adversarial Samples</h2>
+            <button id="runAll" type="button">Run all</button>
+          </div>
+          <div id="samples" class="samples" aria-live="polite"></div>
+        </aside>
+
+        <section class="playground-card">
+          <label for="prompt">Prompt under test</label>
+          <textarea id="prompt" spellcheck="false"></textarea>
+          <div class="actions">
+            <button id="evaluate" type="button">Evaluate Prompt</button>
+            <button id="clear" type="button" class="ghost">Clear</button>
+          </div>
+
+          <div id="result" class="result empty">
+            <p>Select a sample or write a prompt to see the guardrail trace.</p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
